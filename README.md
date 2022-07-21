@@ -1,3 +1,3 @@
-# nd-programacioncreativa
+# Programación creativa
 
 [Tutoriales](/Tutoriales.md)
