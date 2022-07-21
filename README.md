@@ -1,3 +1,3 @@
-# Narrativas Digitales/Programación creativa
+# Narrativas Digitales > Programación creativa
 
 [Tutoriales](/Tutoriales.md)
