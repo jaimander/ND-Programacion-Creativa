@@ -1,6 +1,6 @@
 # Programación creativa 
 
-![Esta es una imagen](https://github.com/jaimander/nd-programacioncreativa/blob/main/docs/portada-gh.png)
+![Esta es una imagen](https://github.com/jaimander/nd-programacioncreativa/blob/main/docs/portada-gh2.png)
 
 
 ### Tutoriales
