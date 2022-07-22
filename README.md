@@ -1,4 +1,4 @@
-![Esta es una imagen](https://github.com/jaimander/nd-programacioncreativa/blob/main/docs/fp-gh-code.png)
+![Esta es una imagen](https://github.com/jaimander/nd-programacioncreativa/blob/main/docs/fp-gh-code1.png)
 # Programación creativa 
 
 ### Tutoriales
