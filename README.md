@@ -9,7 +9,7 @@
 - La mayor parte del tiempo se trata de resolver problemas y hacer que algo funcione como esperas (o que funcione de cualquier manera, pero sin errores), así que tolerar la frustración puede hacer la diferencia.
 - Los resultados que logres dependerán de tu creatividad, el tiempo de práctica, y de que la inspiración te encuentre programando.
 
-En el siguiente link, puedes ver un simulador simple con el que puede interactuar, que muestra cómo influyen estas variables en los resultados. Allí encuentras las instrucciones. Fue construído usando la librería de JavaScript p5.js, que es la que usaremos en el curso.
+En el siguiente link, puedes ver un simulador simple, que se encuentra en construcción, que muestra de manera dinámica cómo influyen estas variables en los resultados. Allí encuentras las instrucciones. Fue construído usando la librería de JavaScript p5.js, que es la que usaremos en el curso.
 
 [https://jaimander.github.io/algoritmo-de-la-programacion-creativa/](https://jaimander.github.io/algoritmo-de-la-programacion-creativa/)
 
