@@ -1,7 +1,7 @@
 ![](https://github.com/jaimander/nd-programacioncreativa/blob/main/docs/fp-gh-code.png)
 # Programación creativa 
 
-### Variables que influyen en en el proceso de programar creativamente
+### Variables que influyen en los resultados de un programador creativo
 [https://jaimander.github.io/algoritmo-de-la-programacion-creativa/](https://jaimander.github.io/algoritmo-de-la-programacion-creativa/)
 
 ### Tutoriales
