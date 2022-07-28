@@ -2,7 +2,7 @@
 # Programación creativa 
 
 ### Variables que influyen en los resultados de un programador creativo
-- El tiempo que dediques a programar, o "cacharrear" como se dice coloquialmente, se verá reflejado en los resultados alcanzados.
+- El tiempo que dediques a programar (o "cacharrear", como se dice coloquialmente), se verá reflejado en los resultados alcanzados.
 - Si tienes un actitúd de juego, es probable que entres en un estado de flujo. Cuando está en estado de flujo es muy probable que tu atención y curiosidad aumenten, por lo cual será más fácil afrontar los problemas al programar.
 - Si estás programando y estás atento a lo que estás haciendo, es posible que tengas un momento de serendipia, ya que puedes estar frente a algo extraordinario y no notarlo si estás distraído.
 - Tu creatividad se alimentará de tu espíritu de juego, tu nivel de atención, tu curiosidad, y la experiencia que hayas alcanzando con la práctica.
