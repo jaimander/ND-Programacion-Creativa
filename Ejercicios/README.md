@@ -1,21 +1,21 @@
 # Ejercicios 
 
-### 1_ Dibujo geométrico 
+### Ejercicio 1: Dibujo geométrico 
 Descripción ejercicio
 
-### 2_ Patrones gráficos
+### Ejercicio 2: Patrones gráficos
 Descripción ejercicio
 
-### 3_ Poema interactivo
+### Ejercicio 3: Poema interactivo
 Descripción ejercicio
 
-### 4_ Poliritmia audiovisual
+### Ejercicio 4: Poliritmia audiovisual
 Descripción ejercicio
 
-### 5_ Generador de relatos aleatorios
+### Ejercicio 5: Generador de relatos aleatorios
 Descripción ejercicio
 
-### 6_ Uso de imágenes de la web
+### Ejercicio 6: Uso de imágenes de la web
 Descripción ejercicio
 
 
