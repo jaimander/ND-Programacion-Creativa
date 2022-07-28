@@ -14,7 +14,7 @@ En el siguiente link, puedes ver un simulador simple con el que puede interactua
 [https://jaimander.github.io/algoritmo-de-la-programacion-creativa/](https://jaimander.github.io/algoritmo-de-la-programacion-creativa/)
 
 ### Tutoriales
-Aquí encontrarás algunos tutoriales que te ayudarán a revisar algunos procedimientos, que puede que te lleven tiempo memorizar. Es bueno tener una biblioteca de guías, tutoriales y ejemplos para volver siempre a ellos cuando algo se nos olvide o no nos funcione. Puede ocurrir que pasemos por alto algún detalle y por eso algo no esté funcionando como debería.
+Aquí encontrarás tutoriales que te ayudarán a revisar algunos procedimientos. Es bueno tener una biblioteca de guías, tutoriales y ejemplos para volver siempre a ellos cuando algo se nos olvide o no nos funcione. Puede ocurrir que pasemos por alto algún detalle y por eso algo no esté funcionando como debería.
 
 - [Correr proyecto de p5.js en servidor local y ponerlo online mediante GitHub](https://github.com/jaimander/nd-programacioncreativa/wiki/p5.js-en-servidor-local-y-ponerlo-en-l%C3%ADnea-usando-GitHub)
 
