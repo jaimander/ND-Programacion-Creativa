@@ -1,21 +1,63 @@
 # Ejercicios 
 
 ## Ejercicio 1: Dibujo geométrico 
-Descripción ejercicio
+### Instrucciones
+
+### Ejemplo 
+Imagen
+
+[Ver ejemplo](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/dibujo-geometrico/)
+
+### Código
+
 
 ## Ejercicio 2: Patrones gráficos
-Descripción ejercicio
+### Instrucciones
+
+### Ejemplo 
+Imagen
+
+[Ver ejemplo](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/patrones-graficos/)
+
+### Código
 
 ## Ejercicio 3: Poema interactivo
-Descripción ejercicio
+### Instrucciones
+
+### Ejemplo 
+Imagen
+
+[Ver ejemplo](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/poema-interactivo/)
+
+### Código
 
 ## Ejercicio 4: Poliritmia audiovisual
-Descripción ejercicio
+### Instrucciones
 
+### Ejemplo 
+Imagen
+
+[Ver ejemplo](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/polirritmia-audiovisual/)
+
+### Código
 ## Ejercicio 5: Generador de relatos aleatorios
-Descripción ejercicio
+### Instrucciones
+
+### Ejemplo 
+Imagen
+
+[Ver ejemplo](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/generador-de-relatos-aleatorios/)
+
+### Código
 
 ## Ejercicio 6: Uso de imágenes de la web
-Descripción ejercicio
+### Instrucciones
+
+### Ejemplo 
+Imagen
+
+[Ver ejemplo](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/uso-de-imagenes-de-la-web/)
+
+### Código
 
 
