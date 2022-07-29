@@ -34,7 +34,7 @@ Recuerda que en html todo lo que está ecrito entre `<!--` y `-->` es un comenta
 </html>
 ```
 
-**sketch.js**
+**sketch.js** </br>
 Recuerda que en **js** todo lo que está ecrito despues de `//` es un comentario, que no afecta el funcionamiento del programa, pero nos sirven de guía para saber lo que estamos haciendo. 
 ```
 function setup() {
