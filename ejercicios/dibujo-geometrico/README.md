@@ -1,7 +1,10 @@
 # Ejercicio 1
 
 ## Instrucciones
+Criatura del espacio digital
+
 ### Descripción
+Realizar un programa que dibuje una 
 
 ### Entregable
 Debes enviar un archivo .zip que solo contenga los siguientes archivos:
