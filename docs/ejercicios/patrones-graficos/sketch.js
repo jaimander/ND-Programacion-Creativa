@@ -59,6 +59,7 @@ function setup() {
     let yVar = random(-2, 2);
     y3 += yVar;
     stroke(colMont3);
+    strokeWeight(2);
     line(x, y3, x, height);
   }
 }
