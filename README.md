@@ -17,6 +17,7 @@ En el siguiente link, puedes ver un simulador simple, que se encuentra en constr
 Aquí encontrarás tutoriales que te ayudarán a revisar algunos procedimientos. Es bueno tener una biblioteca de guías, tutoriales y ejemplos para volver siempre a ellos cuando algo se nos olvide o no nos funcione. Puede ocurrir que pasemos por alto algún detalle y por eso algo no esté funcionando como debería.
 
 - [Correr proyecto de p5.js en servidor local y ponerlo online mediante GitHub](https://github.com/jaimander/nd-programacioncreativa/wiki/p5.js-en-servidor-local-y-ponerlo-en-l%C3%ADnea-usando-GitHub)
+- ¿Qué programas necesito instalar?
 
 ## Ejercicios
 Son seis ejercicios en total (además del proyecto final grupal), que se explican [aquí](https://github.com/jaimander/ND-Programacion-Creativa/tree/main/ejercicios). Todos los ejercicios deben presentarse en una carpeta con nombre y apellido seguido del # del ejercicio, siguiendo esta estructura: **nombre-apellido-#ej** (ej. "jaime-rodriguez-1").
