@@ -1,10 +1,13 @@
 # Ejercicio 1 - Dibujo geométrico
 
 ## Instrucciones
-Criatura del espacio digital
 
 ### Descripción
-Realizar un programa que dibuje una 
+Realizar un programa que dibuje una criatura, que puede ser o no antropomórfa, usando únicamente figuras geométricas y color.
+Las funciones para realizar el dibujo de ese personaje son:
+`stroke()`, `rect()`, `ellipse()`, `triangle()`, `fill()`. 
+Puedes integrar más funciones si deseas.
+
 
 ### Entregable
 Debes enviar un archivo .zip que solo contenga los siguientes archivos:
