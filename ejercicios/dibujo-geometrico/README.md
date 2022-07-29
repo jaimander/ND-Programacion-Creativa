@@ -35,7 +35,7 @@ Recuerda que en **html** todo lo que está ecrito entre `<!--` y `-->` es un com
 ```
 
 Archivo `sketch.js` </br>
-Recuerda que en **js** todo lo que está ecrito despues de `//` es un comentario, que no afecta el funcionamiento del programa, pero nos sirven de guía para saber lo que estamos haciendo. 
+Recuerda que en **JavaScript** todo lo que está ecrito despues de `//` es un comentario, que no afecta el funcionamiento del programa, pero nos sirven de guía para saber lo que estamos haciendo. 
 ```
 function setup() {
   cv = createCanvas(400, 400);
