@@ -49,4 +49,16 @@ function setup() {
       rect(x, y, random(20), 10);
     }
   }
+
+  // capa 2 montañas
+  let colMont3 = color(30, 100, 80);
+  let y3 = random(600, 700);
+
+  for (i = 0; i < width; i++) {
+    let x = i;
+    let yVar = random(-2, 2);
+    y3 += yVar;
+    stroke(colMont3);
+    line(x, y3, x, height);
+  }
 }
