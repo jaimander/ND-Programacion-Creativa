@@ -3,7 +3,7 @@
 ## Instrucciones
 
 Debes enviar un archivo .zip que solo contenga los siguientes archivos:
-- 
+
 
 You will need to submit a zip file that only contains the following files:
 
