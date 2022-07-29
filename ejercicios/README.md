@@ -6,9 +6,6 @@
 ### Ejemplo 
 [Ver ejemplo](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/dibujo-geometrico/)
 
-### Código
-
-
 ## Ejercicio 2: Patrones gráficos
 ### Instrucciones
 
@@ -31,6 +28,7 @@ Imagen
 
 ## Ejercicio 4: Poliritmia audiovisual
 ### Instrucciones
+[Ver el código del ejemplo]
 
 ### Ejemplo 
 Imagen
