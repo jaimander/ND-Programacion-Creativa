@@ -1,7 +1,7 @@
 # Ejercicios 
 
 ## Ejercicio 1: Dibujo geométrico 
-[Instrucciones](https://github.com/jaimander/ND-Programacion-Creativa/tree/main/ejercicios/dibujo-geometrico)
+[Instrucciones](https://github.com/jaimander/ND-Programacion-Creativa/tree/main/ejercicios/dibujo-geometrico) </br>
 [Ejemplo](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/dibujo-geometrico/)
 
 ## Ejercicio 2: Patrones gráficos
