@@ -2,6 +2,7 @@
 
 ## Instrucciones
 
+### Entregable
 Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 - `sketch.js` / Tu sketch p5js, que debe llamarse "sketch.js" 
 - `referencia.jpg` o `referencia.png` / Una imagen (pantallazo) de referencia de cómo se ve el sketch corriendo en el navegador web, que debe llamarse "referencia.jpg" o "referencia.png"
