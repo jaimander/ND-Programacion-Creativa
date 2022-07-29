@@ -5,7 +5,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   background(180, 200, 250);
 
-  // capas de la más lejana a la mas cercana
+  // las capas se organizan de la más lejana a la mas cercana
 
   // capa 1 montañas
   let colMont1 = color(90, 150, 220);
@@ -18,7 +18,6 @@ function setup() {
     let noiseVal = noise(n);
     let x = i;
     y1 = noiseVal * 100 + yOffSet + random(-0.4, 0.4);
-    console.log(noiseVal);
     stroke(colMont1);
     line(x, y1, x, height);
   }
@@ -35,5 +34,18 @@ function setup() {
     line(x, y2, x, height);
   }
 
-  //
+  // capa 3 edificios
+  stroke(255);
+  for (let i = 0; i < width; i += random(50, 100)) {
+    for (let j = random(400, 800); j < height; j += 10) {
+      let x = i;
+      let y = j;
+      fill(230, 140, 118);
+      rect(x, y, 100, 10);
+      fill(230);
+      rect(x, y, random(100), 10);
+      fill(230, 140, 118);
+      rect(x, y, random(20), 10);
+    }
+  }
 }
