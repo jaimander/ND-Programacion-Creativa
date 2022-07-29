@@ -4,7 +4,7 @@
 ### Instrucciones
 
 ### Ejemplo 
-Imagen
+![](https://github.com/jaimander/ND-Programacion-Creativa/blob/main/ejercicios/dibujo-geometrico/dibujo-geometrico-ej.png)
 
 [Ver ejemplo](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/dibujo-geometrico/)
 
