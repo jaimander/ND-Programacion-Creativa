@@ -24,10 +24,10 @@ Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8" /> 
     <title>Dibujo geométrico</title>
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
-    <script src="sketch.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script> <!-- aquí se llama la librería de p5.js-->
+    <script src="sketch.js"></script> <!-- aquí se llama el archivo sketch.js -->
   </head>
   <body></body>
 </html>
