@@ -1,4 +1,4 @@
-# Ejercicio 1
+# Ejercicio 1 - Dibujo geométrico
 
 ## Instrucciones
 Criatura del espacio digital
