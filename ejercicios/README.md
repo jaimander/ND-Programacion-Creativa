@@ -4,8 +4,6 @@
 ### Instrucciones
 
 ### Ejemplo 
-Imagen
-
 [Ver ejemplo](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/dibujo-geometrico/)
 
 ### Código
