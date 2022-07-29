@@ -20,6 +20,7 @@ Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 
 ### Código
 **index.html**
+Recuerda que en html todo lo que está ecrito entre `<!--` y `-->` son comentarios, que no afectan en el programa, pero nos sirven de guía para saber lo que estamos haciendo. 
 ```
 <!DOCTYPE html>
 <html>
