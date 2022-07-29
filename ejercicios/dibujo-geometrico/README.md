@@ -111,7 +111,6 @@ function draw() {
   line(158, 212, 167, 212);
 }
 ```
-
 ### Imagen de referencia
 ![](https://github.com/jaimander/ND-Programacion-Creativa/blob/main/ejercicios/dibujo-geometrico/dibujo-geometrico-ej.png) 
 
