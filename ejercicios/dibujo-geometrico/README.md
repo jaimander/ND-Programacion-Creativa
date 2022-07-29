@@ -1,6 +1,7 @@
 # Ejercicio 1
 
 ## Instrucciones
+### Descripción
 
 ### Entregable
 Debes enviar un archivo .zip que solo contenga los siguientes archivos:
