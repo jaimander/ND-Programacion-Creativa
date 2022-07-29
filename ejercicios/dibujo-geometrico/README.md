@@ -20,7 +20,18 @@ Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 
 ### Código
 **index.html**
-
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dibujo geométrico</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
+    <script src="sketch.js"></script>
+  </head>
+  <body></body>
+</html>
+```
 
 **sketch.js**
 ```
