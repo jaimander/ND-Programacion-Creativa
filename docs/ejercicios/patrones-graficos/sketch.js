@@ -4,7 +4,7 @@
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  //pixelDensity(1);
+  pixelDensity(1);
   background(180, 200, 250);
 
   // las capas se organizan de la más lejana a la mas cercana
