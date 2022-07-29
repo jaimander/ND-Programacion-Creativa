@@ -50,7 +50,7 @@ function setup() {
     }
   }
 
-  // capa 2 montañas
+  // capa 4 montañas primer plano
   let colMont3 = color(30, 100, 80);
   let y3 = random(600, 700);
 
