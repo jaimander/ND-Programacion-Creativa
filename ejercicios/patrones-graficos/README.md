@@ -29,7 +29,7 @@ Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 - Que el programa corra sin errores
 
 ## Ejemplo
-[https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/dibujo-geometrico/](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/dibujo-geometrico/)
+[https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/patrones-graficos/](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/patrones-graficos/)
 
 ### Código del ejemplo
 Archivo **`index.html`** </br>
