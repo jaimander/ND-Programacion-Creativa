@@ -1,21 +1,7 @@
-# Ejercicios 
+# Ejercicios 1
 
-## Ejercicio 1: Dibujo geométrico 
-Descripción ejercicio
+### Visualizaci
+![](https://github.com/jaimander/ND-Programacion-Creativa/blob/main/ejercicios/dibujo-geometrico/dibujo-geometrico-ej.png) 
 
-## Ejercicio 2: Patrones gráficos
-Descripción ejercicio
-
-## Ejercicio 3: Poema interactivo
-Descripción ejercicio
-
-## Ejercicio 4: Poliritmia audiovisual
-Descripción ejercicio
-
-## Ejercicio 5: Generador de relatos aleatorios
-Descripción ejercicio
-
-## Ejercicio 6: Uso de imágenes de la web
-Descripción ejercicio
 
 
