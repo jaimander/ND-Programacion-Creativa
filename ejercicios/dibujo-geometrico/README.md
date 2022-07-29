@@ -20,7 +20,7 @@ Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 - Subir archivo index.html
 - Subir archivo referencia.jpg / referencia.png
 - Usar createCanvas()
-- El canvas tiene un tamaño de 400 x 400
+- Asignar al canvas un tamaño de 400 x 400
 - Usar stroke()
 - Usar noStroke()
 - Usar fill()
