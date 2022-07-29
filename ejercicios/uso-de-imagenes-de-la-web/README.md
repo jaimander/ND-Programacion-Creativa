@@ -1,4 +1,4 @@
-# Ejercicio 1 - Dibujo geométrico
+# Ejercicio 6 - Uso de imágenes de la web
 
 ## Instrucciones
 
