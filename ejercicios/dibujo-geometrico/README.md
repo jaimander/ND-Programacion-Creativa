@@ -18,6 +18,7 @@ Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 ### Criterios de evaluación
 - Subir archivo sketch.js
 - Subir archivo index.html
+- Subir archivo referencia.jpg / referencia.png
 - Usar createCanvas()
 - El canvas tiene un tamaño de 400 x 400
 - Usar stroke()
