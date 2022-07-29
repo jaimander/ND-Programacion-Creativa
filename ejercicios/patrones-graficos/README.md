@@ -125,7 +125,7 @@ function draw() {
 }
 ```
 ### Imagen de referencia
-![](https://github.com/jaimander/ND-Programacion-Creativa/blob/main/ejercicios/dibujo-geometrico/dibujo-geometrico-ej.png) 
+![](https://github.com/jaimander/ND-Programacion-Creativa/blob/main/ejercicios/patrones-graficos/referencia.png) 
 
 
 
