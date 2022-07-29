@@ -1,4 +1,4 @@
-# Ejercicio 1 - Dibujo geométrico
+# Ejercicio 5 - Generador de relatos aleatorios
 
 ## Instrucciones
 
