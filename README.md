@@ -19,4 +19,7 @@ Aquí encontrarás tutoriales que te ayudarán a revisar algunos procedimientos.
 - [Correr proyecto de p5.js en servidor local y ponerlo online mediante GitHub](https://github.com/jaimander/nd-programacioncreativa/wiki/p5.js-en-servidor-local-y-ponerlo-en-l%C3%ADnea-usando-GitHub)
 
 ## Ejercicios
+Son seis ejercicios en total (además del proyecto final grupal), que se explican [aquí](https://github.com/jaimander/ND-Programacion-Creativa/tree/main/ejercicios). Todos los ejercicios deben presentarse en una carpeta con nombre y apellido seguido del # del ejercicio, siguiendo esta estructura como ejemplo:"jaime-rodriguez-1" (nombre-apellido-#ej).
+
+Las carpetas contienen al menos dos archivos, un archivo `index.html` y un archivo `sketch.js`. 
 
