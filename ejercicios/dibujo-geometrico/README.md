@@ -8,9 +8,11 @@ Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 - `index.html` / Un archivo html llamado "index.html" que llame al archivo 'sketch.js'. 
 - No incluyas nada más.
 
+[https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/dibujo-geometrico/](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/dibujo-geometrico/)
 
+### Imagen de referencia
 ![](https://github.com/jaimander/ND-Programacion-Creativa/blob/main/ejercicios/dibujo-geometrico/dibujo-geometrico-ej.png) 
 
 
-[https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/dibujo-geometrico/](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/dibujo-geometrico/)
+
 
