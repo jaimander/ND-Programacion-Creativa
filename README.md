@@ -22,5 +22,5 @@ Aquí encontrarás tutoriales que te ayudarán a revisar algunos procedimientos.
 ## Ejercicios
 Son seis ejercicios en total (además del proyecto final grupal), que se explican [aquí](https://github.com/jaimander/ND-Programacion-Creativa/tree/main/ejercicios). Todos los ejercicios deben presentarse en una carpeta con nombre y apellido seguido del # del ejercicio, siguiendo esta estructura: **nombre-apellido-#ej** (ej. "jaime-rodriguez-1").
 
-Las carpetas contienen al menos dos archivos, un archivo `index.html` y un archivo `sketch.js`. 
+Las carpetas contienen al menos dos archivos, un archivo `index.html` y un archivo `sketch.js`.
 
