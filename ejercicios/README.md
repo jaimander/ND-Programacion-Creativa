@@ -2,6 +2,7 @@
 
 ## Ejercicio 1: Dibujo geométrico 
 ### Instrucciones
+[Ver código del ejemplo](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/dibujo-geometrico/)
 
 ### Ejemplo 
 [Ver ejemplo](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/dibujo-geometrico/)
