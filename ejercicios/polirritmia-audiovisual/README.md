@@ -1,4 +1,4 @@
-# Ejercicio 1 - Dibujo geométrico
+# Ejercicio 4 - Polirritmia audiovisual
 
 ## Instrucciones
 
