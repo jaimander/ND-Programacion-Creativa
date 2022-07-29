@@ -3,7 +3,7 @@
 ## Instrucciones
 
 ### Descripción
-Realizar un programa que dibuje una criatura, que puede ser o no antropomorfa, usando únicamente figuras geométricas y color.
+Realizar un programa que dibuje una criatura robótica, que puede ser o no antropomorfa, usando únicamente figuras geométricas y variaciones de color.
 Las funciones para realizar el dibujo de ese personaje son:
 `stroke()`, `rect()`, `ellipse()`, `triangle()`, `fill()`. 
 Puedes integrar más funciones si deseas.
