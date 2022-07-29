@@ -18,7 +18,7 @@ Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 ### Ejemplo
 [https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/dibujo-geometrico/](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/dibujo-geometrico/)
 
-### Código
+### Código del ejemplo
 Archivo **`index.html`** </br>
 Recuerda que en **html** todo lo que está ecrito entre `<!--` y `-->` es un comentario, que no afecta el funcionamiento del programa, pero nos sirven de guía para saber lo que estamos haciendo. 
 ```
@@ -34,7 +34,7 @@ Recuerda que en **html** todo lo que está ecrito entre `<!--` y `-->` es un com
 </html>
 ```
 
-Archivo `sketch.js` </br>
+Archivo **`sketch.js`** </br>
 Recuerda que en **JavaScript** todo lo que está ecrito despues de `//` es un comentario, que no afecta el funcionamiento del programa, pero nos sirven de guía para saber lo que estamos haciendo. 
 ```
 function setup() {
