@@ -1,5 +1,4 @@
-# Ejercicio 1 - Dibujo geométrico
-
+# Ejercicio 2 - Patrones gráficos
 ## Instrucciones
 
 ### Descripción
