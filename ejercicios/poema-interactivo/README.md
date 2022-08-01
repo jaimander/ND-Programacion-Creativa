@@ -18,14 +18,15 @@ Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 - Subir archivo `index.html`
 - Subir archivo `referencia.jpg` / `referencia.png`
 - Usar `createCanvas()`
-- Asignar al canvas un tamaño de 400 x 400
+- Asignar al canvas el tamaño de la ventana del navegador web usando windowWidth y windowHeight
 - Usar `stroke()`
 - Usar `noStroke()`
 - Usar `fill()`
 - Usar `noFill()`
-- Usar `rect()`
-- Usar `ellipse()`
+- Usar alguna función de figura primitiva 2D (`rect()`, `ellipse()` y/o `triangle()`)
+- Integrar al menos una figura construida como un objeto a partir de una clase
 - Que el programa corra sin errores
+- Usar variables
 
 ## Ejemplo
 [https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/poema-interactivo/](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/poema-interactivo/)
