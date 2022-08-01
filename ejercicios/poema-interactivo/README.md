@@ -1,4 +1,5 @@
 # Ejercicio 3 - Poema interactivo
+Este ejercicio está basado en [https://lovebits.bilebile.net/poems](https://lovebits.bilebile.net/poems)
 
 ## Instrucciones
 
@@ -121,6 +122,7 @@ class Pregunta {
 ```
 ### Imagen de referencia
 ![](https://github.com/jaimander/ND-Programacion-Creativa/blob/main/ejercicios/dibujo-geometrico/dibujo-geometrico-ej.png) 
+
 
 
 
