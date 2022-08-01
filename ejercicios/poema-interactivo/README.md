@@ -3,9 +3,7 @@
 ## Instrucciones
 
 ### Descripción
-Realizar un programa que dibuje una criatura robótica, que puede ser o no antropomorfa, usando únicamente figuras geométricas y variaciones de color.
-Las funciones para realizar el dibujo de ese personaje son:
-`stroke()`, `rect()`, `ellipse()`, `triangle()`, `fill()`. 
+Realizar un programa que ilustre de manera interactiva un poema o una idea. El programa debe incluir al menos una figura geométrica en movimiento (usar [objetos y clases]https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_objetos) puede ampliar las posibilidades) y una reacción respecto a la posición del mouse dada por alguna condición. Las funciones para realizar programa son `rect()`, ellipse()`, `dist()`, las variables `mouseX`, `mouseY`, y la declaración `if`/`else`.
 Puedes integrar más funciones si deseas.
 
 ### Entregable
