@@ -2,30 +2,31 @@
 ## Instrucciones
 
 ### Descripción
-Realizar un programa que dibuje una criatura robótica, que puede ser o no antropomorfa, usando únicamente figuras geométricas y variaciones de color.
-Las funciones para realizar el dibujo de ese personaje son:
-`stroke()`, `rect()`, `ellipse()`, `triangle()`, `fill()`. 
+Realizar un programa que dibuje un paisaje con un cierto grado de aleatoriedad, mediante el uso de ciclos y variables. Las funciones para realizar el dibujo de ese paisaje son: `stroke()`, `line()`, `rect()`, `ellipse()`, `fill()`, `random()`, `noise()`. 
 Puedes integrar más funciones si deseas.
 
 ### Entregable
-Debes enviar un archivo .zip que solo contenga los siguientes archivos:
+Debes enviar un archivo `.zip` que solo contenga los siguientes archivos:
 - `sketch.js`. Tu sketch p5js, que debe llamarse "sketch.js" 
 - `referencia.jpg` o `referencia.png`. Una imagen (pantallazo) de referencia de cómo se ve el sketch corriendo en el navegador web, que debe llamarse "referencia.jpg" o "referencia.png"
 - `index.html`. Un archivo html llamado "index.html" que llame al archivo 'sketch.js'. 
 - No incluyas nada más.
 
 ### Criterios de evaluación
-- Subir archivo sketch.js
-- Subir archivo index.html
-- Subir archivo referencia.jpg / referencia.png
-- Usar createCanvas()
-- Asignar al canvas un tamaño de 400 x 400
-- Usar stroke()
-- Usar noStroke()
-- Usar fill()
-- Usar noFill()
-- Usar rect()
-- Usar ellipse()
+- Subir archivo `sketch.js`
+- Subir archivo `index.html`
+- Subir archivo `referencia.jpg` / `referencia.png`
+- Usar `createCanvas()`
+- Asignar al canvas el tamaño de la ventana del navegador web usando `windowWidth` y `windowHeight` 
+- Usar `stroke()`
+- Usar `noStroke()`
+- Usar `fill()`
+- Usar `noFill()`
+- Usar `rect()`
+- Usar `random()`
+- Usar `for()`
+- Usar variables 
+- Usar `noise()` (opcional)
 - Que el programa corra sin errores
 
 ## Ejemplo
@@ -39,7 +40,7 @@ Recuerda que en **html** todo lo que está ecrito entre `<!--` y `-->` es un com
 <html>
   <head>
     <meta charset="UTF-8" /> 
-    <title>Dibujo geométrico</title>
+    <title>Patrones gráficos</title>
     <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script> <!-- aquí se llama la librería de p5.js-->
     <script src="sketch.js"></script> <!-- aquí se llama el archivo sketch.js -->
   </head>
@@ -49,80 +50,71 @@ Recuerda que en **html** todo lo que está ecrito entre `<!--` y `-->` es un com
 
 Archivo **`sketch.js`** </br>
 Recuerda que en **JavaScript** todo lo que está ecrito despues de `//` es un comentario, que no afecta el funcionamiento del programa, pero nos sirven de guía para saber lo que estamos haciendo. 
+
 ```
-function setup() {
-  cv = createCanvas(400, 400);
-}
+unction setup() {
+  createCanvas(windowWidth, windowHeight);
+  pixelDensity(1); // para 
+  background(180, 200, 250);
 
-function draw() {
-  background(40);
+  // las capas se organizan de la más lejana a la mas cercana
 
-  // rueda
-  fill(180);
-  noStroke();
-  ellipse(205, 270, 40, 40);
+  // capa 1 montañas
+  let colMont1 = color(90, 150, 220);
+  let y1 = 0;
+  let n = 0.0;
+  let yOffSet = 200;
 
-  // procesador y antena
-  stroke(250, 250, 0);
-  strokeWeight(2);
-  line(233, 75, 233, 95);
-  noStroke();
-  fill(25, 200, 100);
-  rect(190, 110, 55, 30);
-  rect(228, 95, 10, 30);
-  triangle(245, 140, 220, 160, 200, 140);
+  for (i = 0; i < width; i++) {
+    n += 0.01;
+    let noiseVal = noise(n);
+    let x = i;
+    y1 = noiseVal * 100 + yOffSet + random(-0.4, 0.4);
+    stroke(colMont1);
+    line(x, y1, x, height);
+  }
 
-  // cabeza
-  noStroke();
-  fill(255);
-  beginShape();
-  vertex(180, 100);
-  vertex(200, 100);
-  vertex(230, 135);
-  vertex(230, 270);
-  vertex(180, 270);
-  endShape();
+  // capa 2 montañas
+  let colMont2 = color(60, 100, 190);
+  let y2 = random(300, 400);
 
-  // ojo
-  fill(0);
-  ellipse(200, 150, 25, 25);
-  fill(255, 0, 0);
-  ellipse(212, 130, 5, 5);
-  ellipse(200, 150, 8, 8);
+  for (i = 0; i < width; i++) {
+    let x = i;
+    let yVar = random(-2, 2);
+    y2 += yVar;
+    stroke(colMont2);
+    line(x, y2, x, height);
+  }
 
-  // altavoz
-  stroke(0);
-  strokeWeight(2);
-  line(220, 180, 220, 200);
-  line(225, 180, 225, 200);
-  line(215, 180, 215, 200);
-
-  // sensor
-  fill(0);
-  ellipse(210, 250, 10, 10);
-
-  // tornillos
-  noStroke();
-  fill(110);
-  ellipse(184, 104, 3, 3);
-  ellipse(199, 104, 3, 3);
-  ellipse(226, 136, 3, 3);
-  ellipse(184, 266, 3, 3);
-  ellipse(226, 266, 3, 3);
-
-  // pantalla
-  fill(190);
-  rect(150, 200, 30, 20);
-  fill(255);
-  rect(150, 220, 30, 10);
-  fill(0, 50, 50);
-  rect(155, 205, 20, 10);
-  strokeWeight(1);
+  // capa 3 edificios
   stroke(255);
-  point(160, 208);
-  line(164, 208, 170, 208);
-  line(158, 212, 167, 212);
+  for (let i = 0; i < width; i += random(50, 100)) {
+    for (let j = random(400, 800); j < height; j += 10) {
+      let x = i;
+      let y = j;
+      fill(230, 140, 118);
+      rect(x, y, 100, 10);
+      fill(230);
+      rect(x, y, random(100), 10);
+      fill(230, 140, 118);
+      rect(x, y, random(20), 10);
+    }
+  }
+
+  // capa 4 montañas primer plano
+  let colMont3 = color(30, 100, 80);
+  let y3 = random(600, 700);
+
+  for (i = 0; i < width; i++) {
+    let x = i;
+    let yVar = random(-2, 2);
+    y3 += yVar;
+    stroke(colMont3);
+    strokeWeight(2);
+    line(x, y3, x, height);
+  }
 }
+
 ```
 ### Imagen de referencia
 ![](https://github.com/jaimander/ND-Programacion-Creativa/blob/main/ejercicios/patrones-graficos/referencia.png) 
