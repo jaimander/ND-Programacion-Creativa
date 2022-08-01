@@ -14,17 +14,17 @@ Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 - No incluyas nada más.
 
 ### Criterios de evaluación
-- Subir archivo sketch.js
-- Subir archivo index.html
-- Subir archivo referencia.jpg / referencia.png
-- Usar createCanvas()
+- Subir archivo `sketch.js`
+- Subir archivo `index.html`
+- Subir archivo `referencia.jpg` / `referencia.png`
+- Usar `createCanvas()`
 - Asignar al canvas un tamaño de 400 x 400
-- Usar stroke()
-- Usar noStroke()
-- Usar fill()
-- Usar noFill()
-- Usar rect()
-- Usar ellipse()
+- Usar `stroke()`
+- Usar `noStroke()`
+- Usar `fill()`
+- Usar `noFill()`
+- Usar `rect()`
+- Usar `ellipse()`
 - Que el programa corra sin errores
 
 ## Ejemplo
