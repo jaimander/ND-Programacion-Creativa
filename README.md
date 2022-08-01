@@ -18,7 +18,7 @@ Aquí encontrarás tutoriales que te ayudarán a revisar algunos procedimientos.
 - [¿Qué programas necesito instalar?](https://github.com/jaimander/ND-Programacion-Creativa/wiki/%C2%BFQu%C3%A9-programas-necesito%3F)
 
 ## Ejercicios
-Son [seis ejercicios](https://github.com/jaimander/ND-Programacion-Creativa/tree/main/ejercicios) en total (además del proyecto final grupal), que se explican [aquí](https://github.com/jaimander/ND-Programacion-Creativa/tree/main/ejercicios). Todos los ejercicios deben presentarse en una carpeta con nombre y apellido, seguido del # del ejercicio, siguiendo esta estructura: **nombre-apellido-#ej** (ej. "jaime-rodriguez-1").
+Son [seis ejercicios](https://github.com/jaimander/ND-Programacion-Creativa/tree/main/ejercicios) en total (además del proyecto final grupal), que se explican [aquí](https://github.com/jaimander/ND-Programacion-Creativa/tree/main/ejercicios). Todos los ejercicios deben presentarse en una carpeta `.zip` con nombre y apellido, seguido del # del ejercicio, siguiendo esta estructura: **nombre-apellido-#ej** (ej. "jaime-rodriguez-1").
 
 Las carpetas contienen al menos dos archivos, un archivo `index.html` y un archivo `sketch.js`.
 
