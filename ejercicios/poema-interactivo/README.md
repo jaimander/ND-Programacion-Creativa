@@ -1,11 +1,10 @@
 # Ejercicio 3 - Poema interactivo
+Este ejercicio está basado en [https://lovebits.bilebile.net/poems](https://lovebits.bilebile.net/poems)
 
 ## Instrucciones
 
 ### Descripción
-Realizar un programa que dibuje una criatura robótica, que puede ser o no antropomorfa, usando únicamente figuras geométricas y variaciones de color.
-Las funciones para realizar el dibujo de ese personaje son:
-`stroke()`, `rect()`, `ellipse()`, `triangle()`, `fill()`. 
+Realizar un programa que ilustre de manera interactiva un poema o una idea. El programa debe incluir al menos **una figura geométrica en movimiento** (usar [objetos y clases](https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_objetos) puede ampliar las posibilidades) y **una reacción respecto a la posición del mouse dada por alguna condición**. Las funciones para realizar programa son `rect()`, `ellipse()`, `dist()`, las variables `mouseX`, `mouseY`, y la declaración `if{}`/`else{}`.
 Puedes integrar más funciones si deseas.
 
 ### Entregable
@@ -16,21 +15,24 @@ Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 - No incluyas nada más.
 
 ### Criterios de evaluación
-- Subir archivo sketch.js
-- Subir archivo index.html
-- Subir archivo referencia.jpg / referencia.png
-- Usar createCanvas()
-- Asignar al canvas un tamaño de 400 x 400
-- Usar stroke()
-- Usar noStroke()
-- Usar fill()
-- Usar noFill()
-- Usar rect()
-- Usar ellipse()
+- Subir archivo `sketch.js`
+- Subir archivo `index.html`
+- Subir archivo `referencia.jpg` / `referencia.png`
+- Usar `createCanvas()`
+- Asignar al canvas el tamaño de la ventana del navegador web usando windowWidth y windowHeight
+- Usar `stroke()`
+- Usar `noStroke()`
+- Usar `fill()`
+- Usar `noFill()`
+- Usar alguna función de figura primitiva 2D (`rect()`, `ellipse()` y/o `triangle()`)
+- Integrar al menos una figura construida como un objeto a partir de una clase
 - Que el programa corra sin errores
+- Usar variables
+- La idea o premisa conceptual o narrativa que se está ilustrando, puesta como un comentario al inicio del archivo `sketch.js 
 
 ## Ejemplo
-[https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/poema-interactivo/](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/poema-interactivo/)
+[https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/poema-interactivo/](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/poema-interactivo/) <br/>
+Este ejemplo está basado en la siguiente premisa: "A veces, con algo de atención y suerte, puedo lograr que lo que debo hacer y lo que quiero hacer, coincida".
 
 ### Código del ejemplo
 Archivo **`index.html`** </br>
@@ -39,94 +41,88 @@ Recuerda que en **html** todo lo que está ecrito entre `<!--` y `-->` es un com
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8" /> 
-    <title>Dibujo geométrico</title>
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script> <!-- aquí se llama la librería de p5.js-->
-    <script src="sketch.js"></script> <!-- aquí se llama el archivo sketch.js -->
+    <meta charset="UTF-8" />
+    <title>Poema interactivo</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
+    <script src="sketch.js"></script>
   </head>
-  <body></body>
+  <body>
+  </body>
 </html>
 ```
 
 Archivo **`sketch.js`** </br>
 Recuerda que en **JavaScript** todo lo que está ecrito despues de `//` es un comentario, que no afecta el funcionamiento del programa, pero nos sirven de guía para saber lo que estamos haciendo. 
+
 ```
+// "A veces, con algo de atención y suerte, puedo lograr que lo que debo hacer y lo que quiero hacer, coincida."
+let xcir, ycir;
+let pregunta1;
+let pregunta2;
+let cfondo;
+
 function setup() {
-  cv = createCanvas(400, 400);
+  cv = createCanvas(windowWidth, windowHeight);
+  xcir = width / 2;
+  ycir = height / 2;
+  pregunta1 = new Pregunta(color(255, 255, 0));
+  pregunta2 = new Pregunta(color(0, 200, 255));
+  cfondo = 80;
 }
 
 function draw() {
-  background(40);
-
-  // rueda
-  fill(180);
+  background(cfondo);
   noStroke();
-  ellipse(205, 270, 40, 40);
 
-  // procesador y antena
-  stroke(250, 250, 0);
-  strokeWeight(2);
-  line(233, 75, 233, 95);
-  noStroke();
-  fill(25, 200, 100);
-  rect(190, 110, 55, 30);
-  rect(228, 95, 10, 30);
-  triangle(245, 140, 220, 160, 200, 140);
-
-  // cabeza
-  noStroke();
-  fill(255);
-  beginShape();
-  vertex(180, 100);
-  vertex(200, 100);
-  vertex(230, 135);
-  vertex(230, 270);
-  vertex(180, 270);
-  endShape();
-
-  // ojo
-  fill(0);
-  ellipse(200, 150, 25, 25);
-  fill(255, 0, 0);
-  ellipse(212, 130, 5, 5);
-  ellipse(200, 150, 8, 8);
-
-  // altavoz
-  stroke(0);
-  strokeWeight(2);
-  line(220, 180, 220, 200);
-  line(225, 180, 225, 200);
-  line(215, 180, 215, 200);
-
-  // sensor
-  fill(0);
-  ellipse(210, 250, 10, 10);
-
-  // tornillos
-  noStroke();
-  fill(110);
-  ellipse(184, 104, 3, 3);
-  ellipse(199, 104, 3, 3);
-  ellipse(226, 136, 3, 3);
-  ellipse(184, 266, 3, 3);
-  ellipse(226, 266, 3, 3);
-
-  // pantalla
-  fill(190);
-  rect(150, 200, 30, 20);
-  fill(255);
-  rect(150, 220, 30, 10);
-  fill(0, 50, 50);
-  rect(155, 205, 20, 10);
-  strokeWeight(1);
+  // circulo
   stroke(255);
-  point(160, 208);
-  line(164, 208, 170, 208);
-  line(158, 212, 167, 212);
+  noFill();
+  strokeWeight(3);
+  ellipse(mouseX, mouseY, 400, 400);
+
+  pregunta1.update();
+  pregunta2.update();
+
+  let distP1 = dist(pregunta1.x, pregunta1.y, mouseX, mouseY);
+  let distP2 = dist(pregunta2.x, pregunta2.y, mouseX, mouseY);
+
+  if(distP1 < 220 && distP2 < 220){
+    cfondo = color(0, 255, 100);
+  }
+  else{
+    cfondo = color(80);
+  }
+}
+
+class Pregunta {
+  constructor(col) {
+    this.x = random(width);
+    this.y = random(height);
+    this.dir = 1;
+    this.vel = 4;
+    this.col = col;
+  }
+
+  update() {
+    noStroke();
+    fill(this.col);
+    rectMode(CENTER);
+    rect(this.x, this.y, 80, 80);
+
+    this.x = this.x + this.vel * this.dir;
+
+    if (this.x > width) {
+      this.dir = -1;
+    }
+    if (this.x < 0) {
+      this.dir = 1;
+    }
+  }
 }
 ```
 ### Imagen de referencia
 ![](https://github.com/jaimander/ND-Programacion-Creativa/blob/main/ejercicios/dibujo-geometrico/dibujo-geometrico-ej.png) 
+
 
 
 
