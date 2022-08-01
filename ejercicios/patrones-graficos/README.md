@@ -2,7 +2,7 @@
 ## Instrucciones
 
 ### Descripción
-Realizar un programa que dibuje un paisaje con un cierto grado de aleatoriedad, mediante el uso de ciclos y variables. Las funciones para realizar el dibujo de ese paisaje son: `stroke()`, `line()`, `rect()`, `ellipse()`, `fill()`, `random()`, `noise()`. 
+Realizar un programa que dibuje un paisaje con un cierto grado de aleatoriedad, mediante el uso de ciclos y variables. Las funciones para realizar el dibujo de ese paisaje son: `stroke()`, `line()`, `rect()`, `ellipse()`, `fill()`, `random()`, `noise()`. Debe tener al menos una capa de montaña y una capa de edificios o "construcciones urbanas".
 Puedes integrar más funciones si deseas.
 
 ### Entregable
