@@ -1,3 +1,5 @@
+// "A veces, con algo de atención y suerte, puedo lograr que lo que debo hacer y lo que quiero hacer, coincida."
+
 let xcir, ycir;
 let pregunta1;
 let pregunta2;
