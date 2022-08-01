@@ -28,8 +28,11 @@ function draw() {
   let distP1 = dist(pregunta1.x, pregunta1.y, mouseX, mouseY);
   let distP2 = dist(pregunta2.x, pregunta2.y, mouseX, mouseY);
 
-  if(distP1 < 200 && distP2 < 200){
+  if(distP1 < 220 && distP2 < 220){
     cfondo = color(0, 255, 100);
+  }
+  else{
+    cfondo = color(80);
   }
 }
 
