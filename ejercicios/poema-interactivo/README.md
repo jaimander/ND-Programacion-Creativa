@@ -31,7 +31,7 @@ Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 
 ## Ejemplo
 [https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/poema-interactivo/](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/poema-interactivo/) <br/>
-Este ejemplo está basado en la siguiente premisa: "A veces, con algo de atención y suerte, lo que debo hacer y lo que quiero hacer, coincide."".
+Este ejemplo está basado en la siguiente premisa: "A veces, con algo de atención y suerte, puedo lograr que lo que debo hacer y lo que quiero hacer, coincida".
 
 ### Código del ejemplo
 Archivo **`index.html`** </br>
@@ -54,7 +54,7 @@ Archivo **`sketch.js`** </br>
 Recuerda que en **JavaScript** todo lo que está ecrito despues de `//` es un comentario, que no afecta el funcionamiento del programa, pero nos sirven de guía para saber lo que estamos haciendo. 
 
 ```
-// "A veces, con algo de atención y suerte, lo que debo hacer y lo que quiero hacer, coincide."
+// "A veces, con algo de atención y suerte, puedo lograr que lo que debo hacer y lo que quiero hacer, coincida."
 let xcir, ycir;
 let pregunta1;
 let pregunta2;
