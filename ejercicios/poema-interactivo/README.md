@@ -38,90 +38,82 @@ Recuerda que en **html** todo lo que está ecrito entre `<!--` y `-->` es un com
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8" /> 
-    <title>Dibujo geométrico</title>
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script> <!-- aquí se llama la librería de p5.js-->
-    <script src="sketch.js"></script> <!-- aquí se llama el archivo sketch.js -->
+    <meta charset="UTF-8" />
+    <title>Poema interactivo</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
+    <script src="sketch.js"></script>
   </head>
-  <body></body>
+  <body>
+  </body>
 </html>
 ```
 
 Archivo **`sketch.js`** </br>
 Recuerda que en **JavaScript** todo lo que está ecrito despues de `//` es un comentario, que no afecta el funcionamiento del programa, pero nos sirven de guía para saber lo que estamos haciendo. 
+
 ```
+let xcir, ycir;
+let pregunta1;
+let pregunta2;
+let cfondo;
+
 function setup() {
-  cv = createCanvas(400, 400);
+  cv = createCanvas(windowWidth, windowHeight);
+  xcir = width / 2;
+  ycir = height / 2;
+  pregunta1 = new Pregunta(color(255, 255, 0));
+  pregunta2 = new Pregunta(color(0, 200, 255));
+  cfondo = 80;
 }
 
 function draw() {
-  background(40);
-
-  // rueda
-  fill(180);
+  background(cfondo);
   noStroke();
-  ellipse(205, 270, 40, 40);
 
-  // procesador y antena
-  stroke(250, 250, 0);
-  strokeWeight(2);
-  line(233, 75, 233, 95);
-  noStroke();
-  fill(25, 200, 100);
-  rect(190, 110, 55, 30);
-  rect(228, 95, 10, 30);
-  triangle(245, 140, 220, 160, 200, 140);
-
-  // cabeza
-  noStroke();
-  fill(255);
-  beginShape();
-  vertex(180, 100);
-  vertex(200, 100);
-  vertex(230, 135);
-  vertex(230, 270);
-  vertex(180, 270);
-  endShape();
-
-  // ojo
-  fill(0);
-  ellipse(200, 150, 25, 25);
-  fill(255, 0, 0);
-  ellipse(212, 130, 5, 5);
-  ellipse(200, 150, 8, 8);
-
-  // altavoz
-  stroke(0);
-  strokeWeight(2);
-  line(220, 180, 220, 200);
-  line(225, 180, 225, 200);
-  line(215, 180, 215, 200);
-
-  // sensor
-  fill(0);
-  ellipse(210, 250, 10, 10);
-
-  // tornillos
-  noStroke();
-  fill(110);
-  ellipse(184, 104, 3, 3);
-  ellipse(199, 104, 3, 3);
-  ellipse(226, 136, 3, 3);
-  ellipse(184, 266, 3, 3);
-  ellipse(226, 266, 3, 3);
-
-  // pantalla
-  fill(190);
-  rect(150, 200, 30, 20);
-  fill(255);
-  rect(150, 220, 30, 10);
-  fill(0, 50, 50);
-  rect(155, 205, 20, 10);
-  strokeWeight(1);
+  // circulo
   stroke(255);
-  point(160, 208);
-  line(164, 208, 170, 208);
-  line(158, 212, 167, 212);
+  noFill();
+  strokeWeight(3);
+  ellipse(mouseX, mouseY, 400, 400);
+
+  pregunta1.update();
+  pregunta2.update();
+
+  let distP1 = dist(pregunta1.x, pregunta1.y, mouseX, mouseY);
+  let distP2 = dist(pregunta2.x, pregunta2.y, mouseX, mouseY);
+
+  if(distP1 < 220 && distP2 < 220){
+    cfondo = color(0, 255, 100);
+  }
+  else{
+    cfondo = color(80);
+  }
+}
+
+class Pregunta {
+  constructor(col) {
+    this.x = random(width);
+    this.y = random(height);
+    this.dir = 1;
+    this.vel = 4;
+    this.col = col;
+  }
+
+  update() {
+    noStroke();
+    fill(this.col);
+    rectMode(CENTER);
+    rect(this.x, this.y, 80, 80);
+
+    this.x = this.x + this.vel * this.dir;
+
+    if (this.x > width) {
+      this.dir = -1;
+    }
+    if (this.x < 0) {
+      this.dir = 1;
+    }
+  }
 }
 ```
 ### Imagen de referencia
