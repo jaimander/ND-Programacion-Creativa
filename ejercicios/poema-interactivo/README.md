@@ -30,6 +30,7 @@ Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 
 ## Ejemplo
 [https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/poema-interactivo/](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/poema-interactivo/)
+Este ejemplo está basado en la premisa: "Solo a veces, y con algo de suerte, lo que debo hacer y lo que quiero hacer, coincide".
 
 ### Código del ejemplo
 Archivo **`index.html`** </br>
