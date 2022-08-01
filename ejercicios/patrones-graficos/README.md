@@ -1,4 +1,6 @@
 # Ejercicio 2 - Patrones gráficos
+Este ejercicio está basado en el sketch [https://openprocessing.org/sketch/850179](https://openprocessing.org/sketch/850179)
+
 ## Instrucciones
 
 ### Descripción
