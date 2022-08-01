@@ -27,10 +27,11 @@ Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 - Integrar al menos una figura construida como un objeto a partir de una clase
 - Que el programa corra sin errores
 - Usar variables
+- La idea o premisa conceptual o narrativa que se está ilustrando, puesta como un comentario al inicio del archivo `sketch.js 
 
 ## Ejemplo
 [https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/poema-interactivo/](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/poema-interactivo/) <br/>
-Este ejemplo está basado en la premisa: "Solo a veces, y con algo de suerte, lo que debo hacer y lo que quiero hacer, coincide".
+Este ejemplo está basado en la siguiente premisa: "A veces, con algo de atención y suerte, lo que debo hacer y lo que quiero hacer, coincide."".
 
 ### Código del ejemplo
 Archivo **`index.html`** </br>
@@ -53,6 +54,7 @@ Archivo **`sketch.js`** </br>
 Recuerda que en **JavaScript** todo lo que está ecrito despues de `//` es un comentario, que no afecta el funcionamiento del programa, pero nos sirven de guía para saber lo que estamos haciendo. 
 
 ```
+// "A veces, con algo de atención y suerte, lo que debo hacer y lo que quiero hacer, coincide."
 let xcir, ycir;
 let pregunta1;
 let pregunta2;
