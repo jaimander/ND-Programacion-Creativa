@@ -54,7 +54,7 @@ Recuerda que en **JavaScript** todo lo que está ecrito despues de `//` es un co
 ```
 unction setup() {
   createCanvas(windowWidth, windowHeight);
-  pixelDensity(1); // para 
+  pixelDensity(1); 
   background(180, 200, 250);
 
   // las capas se organizan de la más lejana a la mas cercana
