@@ -3,7 +3,7 @@
 ## Instrucciones
 
 ### Descripción
-Realizar un programa que muestre una secuencia de escenas que narren una situación breve, usando imagenes/íconos en formato `.png` y estableciendo los cambios de movimiento a partir de intervalos de tiempo establecidos (timers). Las funciones nuevas para realizar esta animación básica son: `millis()`, `loadImage() y `image()`. Puedes integrar más funciones si deseas.
+Realizar un programa que muestre una secuencia de escenas que narren una situación breve, usando imagenes/íconos en formato `.png` y estableciendo los cambios de movimiento a partir de intervalos de tiempo establecidos (timers). Las funciones nuevas para realizar esta animación básica son: `millis()`, `loadImage()`, `image()`. Puedes integrar más funciones si deseas.
 
 ### Entregable
 Debes enviar un archivo .zip que solo contenga los siguientes archivos:
