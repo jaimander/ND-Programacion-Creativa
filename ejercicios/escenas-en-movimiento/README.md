@@ -24,6 +24,7 @@ Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 - Usar `background()` con valores variables
 - Usar `fill()`
 - Usar operaciones de suma `+` y resta `-`
+- Usar operadores de comparación (ej. `==`, `<=`, `>`)
 - Usar alguna figura primitiva (`ellipse()`, `rect()`, etc.)
 - Usar variables
 - Usar condicionales `if(){}`
