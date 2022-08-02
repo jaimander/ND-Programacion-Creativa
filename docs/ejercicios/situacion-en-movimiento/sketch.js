@@ -1,3 +1,6 @@
+// https://www.flaticon.com/premium-icon/tree_4319613?term=tree&page=1&position=64&page=1&position=64&related_id=4319613&origin=search
+// https://www.flaticon.com/premium-icon/elephant_3359878?related_id=3359878&origin=search
+
 let tiempoRef = 0;
 let tiempoCont = 0;
 let tiempoEspera = 1000;
