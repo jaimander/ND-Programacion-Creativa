@@ -15,7 +15,7 @@
 ### Ejercicio 3
 ![](https://github.com/jaimander/ND-Programacion-Creativa/blob/main/ejercicios/poema-interactivo/referencia.png) 
 ### Ejercicio 4
-![](https://github.com/jaimander/ND-Programacion-Creativa/blob/main/ejercicios/situacion-en-movimiento/referencia.png) 
+![](https://github.com/jaimander/ND-Programacion-Creativa/blob/main/ejercicios/escenas-en-movimiento/referencia.png) 
 
 
 
