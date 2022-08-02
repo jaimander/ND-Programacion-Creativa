@@ -32,7 +32,7 @@ Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 - Archivo .zip organizado conforme a las indicaciones (`index.html`, `sketch.js, referencia.png`y carpeta `assets` con las imágenes usadas).
 
 ## Ejemplo
-[https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/dibujo-geometrico/](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/dibujo-geometrico/)
+[https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/generador-de-limericks/](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/generador-de-limericks/)
 
 ### Código del ejemplo
 Archivo **`index.html`** </br>
@@ -128,7 +128,7 @@ function draw() {
 }
 ```
 ### Imagen de referencia
-![](https://github.com/jaimander/ND-Programacion-Creativa/blob/main/ejercicios/dibujo-geometrico/dibujo-geometrico-ej.png) 
+![](https://github.com/jaimander/ND-Programacion-Creativa/blob/main/ejercicios/generador-de-limericks/referencia.png) 
 
 
 
