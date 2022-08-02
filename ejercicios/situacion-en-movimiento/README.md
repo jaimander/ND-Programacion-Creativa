@@ -1,4 +1,4 @@
-# Ejercicio 4 - Polirritmia audiovisual
+# Ejercicio 4 - Situación en movimiento
 
 ## Instrucciones
 
@@ -30,7 +30,7 @@ Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 - Que el programa corra sin errores
 
 ## Ejemplo
-[https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/dibujo-geometrico/](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/dibujo-geometrico/)
+[https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/situacion-en-movimiento/](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/situacion-en-movimiento/)
 
 ### Código del ejemplo
 Archivo **`index.html`** </br>
@@ -126,7 +126,7 @@ function draw() {
 }
 ```
 ### Imagen de referencia
-![](https://github.com/jaimander/ND-Programacion-Creativa/blob/main/ejercicios/dibujo-geometrico/dibujo-geometrico-ej.png) 
+![](https://github.com/jaimander/ND-Programacion-Creativa/blob/main/ejercicios/situacion-en-movimiento/referencia.png) 
 
 
 
