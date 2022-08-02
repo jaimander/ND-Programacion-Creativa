@@ -1,4 +1,4 @@
-# Ejercicio 5 - Generador de relatos aleatorios
+# Ejercicio 5 - Generador de limericks
 
 ## Instrucciones
 
