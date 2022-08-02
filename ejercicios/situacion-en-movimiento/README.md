@@ -1,4 +1,4 @@
-# Ejercicio 4 - Polirritmia audiovisual
+# Ejercicio 4 - Situación en movimiento
 
 ## Instrucciones
 
@@ -126,7 +126,7 @@ function draw() {
 }
 ```
 ### Imagen de referencia
-![](https://github.com/jaimander/ND-Programacion-Creativa/blob/main/ejercicios/dibujo-geometrico/dibujo-geometrico-ej.png) 
+![](https://github.com/jaimander/ND-Programacion-Creativa/blob/main/ejercicios/situacion-en-movimiento/referencia.png) 
 
 
 
