@@ -1,4 +1,4 @@
-# Ejercicio 4 - Situación en movimiento
+# Ejercicio 4 - Escenas en movimiento
 
 ## Instrucciones
 
@@ -30,7 +30,7 @@ Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 - Que el programa corra sin errores
 
 ## Ejemplo
-[https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/situacion-en-movimiento/](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/situacion-en-movimiento/)
+[https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/escenas-en-movimiento/](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/escenas-en-movimiento/)
 
 ### Código del ejemplo
 Archivo **`index.html`** </br>
@@ -126,7 +126,7 @@ function draw() {
 }
 ```
 ### Imagen de referencia
-![](https://github.com/jaimander/ND-Programacion-Creativa/blob/main/ejercicios/situacion-en-movimiento/referencia.png) 
+![](https://github.com/jaimander/ND-Programacion-Creativa/blob/main/ejercicios/escenas-en-movimiento/referencia.png) 
 
 
 
