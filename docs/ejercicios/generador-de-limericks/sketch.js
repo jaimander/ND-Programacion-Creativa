@@ -1,12 +1,16 @@
 
+let v1 = []; 
+
 function setup() {
   cv = createCanvas(windowWidth, windowHeight);
+
+  v1[0] = "verso 1";
 
 }
 
 function draw() {
   background(80);
-  noStroke();
-  fill(random(255));
-  ellipse(200, 200, 100, 100);
+  fill(255);
+  textSize(20);
+  text(v1[0], 100, 100)
 }
