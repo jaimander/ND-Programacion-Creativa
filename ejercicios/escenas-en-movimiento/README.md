@@ -28,7 +28,7 @@ Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 - Usar variables
 - Usar condicionales `if(){}`
 - Que el programa corra sin errores
-- Archivo .zip organizado conforme a las indicaciones (`index.html`, sketch.js, referencia.png`y carpeta `assets` con las imágenes usadas).
+- Archivo .zip organizado conforme a las indicaciones (`index.html`, `sketch.js, referencia.png`y carpeta `assets` con las imágenes usadas).
 
 ## Ejemplo
 [https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/escenas-en-movimiento/](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/escenas-en-movimiento/)
