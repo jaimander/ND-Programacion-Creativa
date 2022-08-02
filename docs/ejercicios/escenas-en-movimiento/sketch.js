@@ -17,7 +17,6 @@ let ciclo = 0;
 
 function setup() {
   cv = createCanvas(windowWidth, windowHeight);
-  frameRate(30);
   pixelDensity(2);
   xElef = 200;
   xArbol = width;
@@ -65,4 +64,4 @@ function preload() {
   imgElef = loadImage('assets/elefante.png');
   imgArbol = loadImage('assets/arbol.png');
 }
-function keyPressed() {}
+
