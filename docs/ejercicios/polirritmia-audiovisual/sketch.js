@@ -1,77 +1,67 @@
-let xcen;
-let ycen;
+let tiempoRef = 0;
+let tiempoCont = 0;
+let tiempoEspera = 1000;
 
-let divx1;
-let divx2;
+let momento = 0;
+let x;
+let xArbol;
+let cfondo;
 
-let tiempoRef1 = 0;
-let tiempoCont1;
-let tiempoPulso1 = 1000;
-let tiempoRef2 = 0;
-let tiempoCont2;
-let tiempoPulso2 = 500;
+let imgIzq;
+let imgDer;
+let imgArbol;
 
-let col1;
-let col2;
-let col3;
-
-let posx;
-let posy;
+let ciclo = 0;
 
 function setup() {
   cv = createCanvas(windowWidth, windowHeight);
-  angleMode(DEGREES);
-
-  divx1 = width / 3;
-  divx2 = (width / 3) * 2;
-
-  xcen = width / 2;
-  ycen = height / 2;
-
-  col1 = color(random(255), random(255), random(255));
-
-  posx = random(divx1, divx2);;
-  posy = 0;
-  
+  frameRate(30);
+  pixelDensity(2);
+  x = 200;
+  xArbol = width;
+  cfondo = color(0, 0, 20);
 }
 
 function draw() {
-  background(200);
+  background(cfondo);
 
-  // calculo tiempo
-  tiempoCont1 = millis() - tiempoRef1;
-  tiempoCont2 = millis() - tiempoRef2;
-
-  if (tiempoCont1 >= tiempoPulso1) {
-    tiempoRef1 = millis();
-    col1 = color(random(255), random(255), random(255));
-  }
-
-  if (tiempoCont2 >= tiempoPulso2) {
-    tiempoRef2 = millis();
-
-    posx = random(divx1, divx2);
-    posy = random(0, height);
-  }
-
-
-
-  // divisiones
-  strokeWeight(2);
-  stroke(255);
-  line(divx1, 0, divx1, height);
-  line(divx2, 0, divx2, height);
-
-  // rect1
   noStroke();
-  fill(col1);
-  rect(0, 0, divx1, height);
+  fill(140, 150, 60);
+  rect(0, 300, width, height);
 
-   // ellipses
-   noStroke();
-   fill(255);
-   ellipse(posx, posy, 100, 100);
+  if (momento == 0) {
+    tiempoCont = millis() - tiempoRef;
+
+    if (tiempoCont >= tiempoEspera) {
+      tiempoRef = millis();
+      cfondo = color(200, 240, 255);
+      momento = 1;
+      ciclo++;
+    }
+  }
+
+  if (momento == 1) {
+    tiempoCont = millis() - tiempoRef;
+    x += 2;
+    xArbol -= 2;
+    if (tiempoCont >= tiempoEspera) {
+      tiempoRef = millis();
+      cfondo = color(0, 0, 20);
+      momento = 0;
+    }
+  }
+
+  image(imgArbol, xArbol, 180, 120, 120);
+  image(imgDer, x, 200, 100, 100);
+
+  if (ciclo < 7) {
+    image(imgDer, x - 100, 220, 80, 80);
+  }
 }
 
-function keyPressed() {
+function preload() {
+  imgIzq = loadImage('assets/elefanteIzq.png');
+  imgDer = loadImage('assets/elefanteDer.png');
+  imgArbol = loadImage('assets/arbol.png');
 }
+function keyPressed() {}
