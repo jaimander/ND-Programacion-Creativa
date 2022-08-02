@@ -3,32 +3,33 @@
 ## Instrucciones
 
 ### Descripción
-Realizar un programa que dibuje una criatura robótica, que puede ser o no antropomorfa, usando únicamente figuras geométricas y variaciones de color.
-Las funciones para realizar el dibujo de ese personaje son:
-`stroke()`, `rect()`, `ellipse()`, `triangle()`, `fill()`. 
-Puedes integrar más funciones si deseas.
+Realizar un programa que muestre una secuencia de escenas que narren una situación breve, usando imagenes/íconos en formato `.png` y estableciendo los cambios de movimiento a partir de intervalos de tiempo establecidos (timers). Las funciones nuevas para realizar esta animación básica son: `millis()`, `loadImage()`, `image()`. Puedes integrar más funciones si deseas. Sugiero usar íconos de la página [https://www.flaticon.es/](https://www.flaticon.es/).
 
 ### Entregable
 Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 - `sketch.js`. Tu sketch p5js, que debe llamarse "sketch.js" 
 - `referencia.jpg` o `referencia.png`. Una imagen (pantallazo) de referencia de cómo se ve el sketch corriendo en el navegador web, que debe llamarse "referencia.jpg" o "referencia.png"
 - `index.html`. Un archivo html llamado "index.html" que llame al archivo 'sketch.js'. 
+- Una carpeta con el nombre `assets`, que contenga los archivos `.png` utilizados.
 - No incluyas nada más.
 
 ### Criterios de evaluación
-- Subir archivo sketch.js
-- Subir archivo index.html
-- Subir archivo referencia.jpg / referencia.png
-- Usar createCanvas()
-- Asignar al canvas un tamaño de 400 x 400
-- Usar stroke()
-- Usar noStroke()
-- Usar fill()
-- Usar noFill()
-- Usar rect()
-- Usar ellipse()
+- Subir archivo `sketch.js`
+- Subir archivo `index.html`
+- Subir archivo `referencia.jpg` / `referencia.png`
+- Usar `createCanvas()`
+- Usar la función `preload()` para cargar las imagenes al programa.
+- Usar `image()`
+- Asignar al canvas el tamaño de la ventana del navegador web usando `windowWidth` y `windowHeight`
+- Usar `background()` con valores variables
+- Usar `fill()`
+- Usar operaciones de suma `+` y resta `-`
+- Usar operadores de comparación (ej. `==`, `<=`, `>`)
+- Usar alguna figura primitiva (`ellipse()`, `rect()`, etc.)
+- Usar variables
+- Usar condicionales `if(){}`
 - Que el programa corra sin errores
-
+- Archivo .zip organizado conforme a las indicaciones (`index.html`, `sketch.js, referencia.png`y carpeta `assets` con las imágenes usadas).
 ## Ejemplo
 [https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/dibujo-geometrico/](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/dibujo-geometrico/)
 
