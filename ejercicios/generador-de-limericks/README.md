@@ -83,7 +83,7 @@ let v5r = 0;
 // A    - v2    - acción del personaje 
 // B    - v3    - acción complementaria del personaje o evento del contexto 1 B
 // B    - v4    - acción complementaria del personaje o evento del contexto 2 B
-// A    - v5    - epíteto 
+// A    - v5    - final o conclusión 
 
 function setup() {
   cv = createCanvas(windowWidth, windowHeight);
