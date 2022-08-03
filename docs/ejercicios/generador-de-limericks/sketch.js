@@ -80,9 +80,6 @@ function setup() {
 
 function draw() {
   background(80);
-  fill(255);
-  textSize(30);
-  textFont(font);
 
   yv1 = 200;
   yv2 = 250;
@@ -90,16 +87,32 @@ function draw() {
   yv4 = 350;
   yv5 = 400;
 
-  text(v1[v1r], 100, yv1);
-  text(v2[v2r], 100, yv2);
-  text(v3[v3r], 100, yv3);
-  text(v4[v4r], 100, yv4);
-  text(v5[v5r], 100, yv5);
+  fill(255);
+  textSize(30);
+  textFont(font);
+  textAlign(LEFT);
+  text(v1[v1r], 140, yv1);
+  text(v2[v2r], 140, yv2);
+  text(v3[v3r], 140, yv3);
+  text(v4[v4r], 140, yv4);
+  text(v5[v5r], 140, yv5);
+
+  /*
+  fill(110);
+  textAlign(RIGHT);
+  text('rimas', 120, yv1 - 50);
+  text('[ada]', 120, yv1);
+  text('[ada]', 120, yv2);
+  text('[ita]', 120, yv3);
+  text('[ita]', 120, yv4);
+  text('[ada]', 120, yv5);
+  */
 
   fill(0, 255, 255);
+  textAlign(LEFT);
   textSize(20);
   textFont(font);
-  text('Oprime cualquier tecla para generar un limerick nuevo', 100, yv5 + 100);
+  text('Oprime cualquier tecla para generar un limerick nuevo', 140, yv5 + 100);
 }
 
 function preload() {
