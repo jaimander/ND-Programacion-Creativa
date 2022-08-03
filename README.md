@@ -8,7 +8,7 @@
 - Tu creatividad se alimentará de tu espíritu de juego, tu nivel de atención, tu curiosidad, y la experiencia que hayas alcanzando con la práctica.
 - La mayor parte del tiempo se trata de resolver problemas y hacer que algo funcione como esperas (o que funcione de cualquier manera, pero sin errores), así que tolerar la frustración puede hacer la diferencia.
 - Los resultados que logres dependerán de tu creatividad, el tiempo de práctica, y de que la inspiración te encuentre programando.
-- Las cosas que veas, proyectos, trabajos, imágenes, memes, situaciones, aunque no tengan una relación directa con la programación, pueden llegar a servir de inspiración o referencia para crear en algún momento, así que procura hacer una biblioteca con todo ello. Asimismo, si de repente se te viene una idea a la cabeza, anótala y no dejes que se te olvide.
+- Las cosas que veas, proyectos, trabajos, imágenes, memes, situaciones, aunque no tengan una relación directa con la programación, pueden llegar a servir de inspiración o referencia para crear en algún momento, así que procura hacer una biblioteca con todo ello. Asimismo, si de repente se te viene una idea a la cabeza, anótala y no dejes que se te olvide. Tu cerebro te dará más ideas si sabe que le prestas atención.
 
 [Aquí](https://jaimander.github.io/algoritmo-de-la-programacion-creativa/) puedes ver un simulador simple, que se encuentra en construcción, que muestra de manera dinámica cómo influyen estas variables en los resultados. Allí encuentras las instrucciones. Fue construído usando la librería de JavaScript p5.js, que es la que usaremos en el curso.
 
