@@ -50,6 +50,7 @@ Recuerda que en **html** todo lo que está escrito entre `<!--` y `-->` es un co
   <body>
   </body>
 </html>
+```
 
 Archivo **`sketch.js`** </br>
 Recuerda que en **JavaScript** todo lo que está ecrito despues de `//` es un comentario, que no afecta el funcionamiento del programa, pero nos sirven de guía para saber lo que estamos haciendo. 
