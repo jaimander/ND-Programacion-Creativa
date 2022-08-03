@@ -78,11 +78,12 @@ let v3r = 0;
 let v4r = 0;
 let v5r = 0;
 
-// v1 - protagonista A
-// v2 - acción A
-// v3 - contexto pt1 B
-// v4 - contexto pt2 B
-// v5 - epíteto A
+// RIMA - VERSO - FUNCIÓN NARRATIVA 
+// A    - v1    - personaje 
+// A    - v2    - acción del personaje 
+// B    - v3    - acción complementaria del personaje o evento del contexto 1 B
+// B    - v4    - acción complementaria del personaje o evento del contexto 2 B
+// A    - v5    - epíteto 
 
 function setup() {
   cv = createCanvas(windowWidth, windowHeight);
