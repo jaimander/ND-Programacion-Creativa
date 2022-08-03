@@ -55,7 +55,7 @@ Archivo **`sketch.js`** </br>
 Recuerda que en **JavaScript** todo lo que está ecrito despues de `//` es un comentario, que no afecta el funcionamiento del programa, pero nos sirven de guía para saber lo que estamos haciendo. 
 
 ```
-/ arrays de strings
+// arrays de strings
 let v1 = [];
 let v2 = [];
 let v3 = [];
