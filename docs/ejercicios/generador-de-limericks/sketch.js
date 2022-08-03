@@ -40,7 +40,7 @@ function setup() {
   v1[6] = 'Doña María busca los ingredientes para hacer su ensalada';
 
   v2[0] = 'da tumbos entre la multitúd pesada';
-  v2[1] = 'camina por la escalara empinada';
+  v2[1] = 'camina por la escalera empinada';
   v2[2] = 'se entristece por no haber vendido nada';
   v2[3] = 'esquiva como puede a quienes salen de la nada';
   v2[4] = 'pide dinero para comerse una empanada';
