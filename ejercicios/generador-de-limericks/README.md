@@ -1,4 +1,5 @@
 # Ejercicio 5 - Generador de limericks
+Este ejercicio está inspirado en [http://www.gamedefinitions.com/#](http://www.gamedefinitions.com/#), de Molleindustria Games
 
 ## Instrucciones
 
