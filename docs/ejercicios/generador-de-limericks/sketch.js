@@ -95,6 +95,11 @@ function draw() {
   text(v3[v3r], 100, yv3);
   text(v4[v4r], 100, yv4);
   text(v5[v5r], 100, yv5);
+
+  fill(0, 255, 255);
+  textSize(20);
+  textFont(font);
+  text('Oprime cualquier tecla para generar un limerick nuevo', 100, yv5 + 100);
 }
 
 function preload() {
