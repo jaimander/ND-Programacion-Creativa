@@ -126,3 +126,11 @@ function keyPressed() {
   v4r = int(random(0, 7));
   v5r = int(random(0, 7));
 }
+
+function touchStarted() {
+  v1r = int(random(0, 7));
+  v2r = int(random(0, 7));
+  v3r = int(random(0, 7));
+  v4r = int(random(0, 7));
+  v5r = int(random(0, 7));
+}
