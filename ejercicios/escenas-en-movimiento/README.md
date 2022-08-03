@@ -27,6 +27,7 @@ Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 - Usar operadores de comparación (ej. `==`, `<=`, `>`)
 - Usar alguna figura primitiva (`ellipse()`, `rect()`, etc.)
 - Usar variables
+- Usar `millis()` para deteminar los intervalos de tiempo entre movimientos
 - Usar condicionales `if(){}`
 - Que el programa corra sin errores
 - Archivo .zip organizado conforme a las indicaciones (`index.html`, `sketch.js, referencia.png`y carpeta `assets` con las imágenes usadas).
