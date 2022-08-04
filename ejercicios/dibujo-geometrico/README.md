@@ -33,7 +33,7 @@ Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 [https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/dibujo-geometrico/](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/dibujo-geometrico/)
 
 ### Código del ejemplo
-Archivo **`index.html`** </br>
+Archivo **index.html** </br>
 Recuerda que en **html** todo lo que está ecrito entre `<!--` y `-->` es un comentario, que no afecta el funcionamiento del programa, pero nos sirven de guía para saber lo que estamos haciendo. 
 ```
 <!DOCTYPE html>
