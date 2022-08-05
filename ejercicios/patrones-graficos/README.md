@@ -19,7 +19,7 @@ Debes enviar un archivo `.zip` que solo contenga los siguientes archivos:
 - Subir archivo `index.html`
 - Subir archivo `referencia.jpg` / `referencia.png`
 - Usar `createCanvas()`
-- Asignar al canvas el tamaño de la ventana del navegador web usando `windowWidth` y `windowHeight` 
+- Asignar al canvas el tamaño de la ventana del navegador web usando `innerWidth` y `innerHeight` 
 - Usar `stroke()`
 - Usar `noStroke()`
 - Usar `fill()`
