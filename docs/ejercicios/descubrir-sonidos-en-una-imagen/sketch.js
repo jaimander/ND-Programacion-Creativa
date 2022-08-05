@@ -1,10 +1,11 @@
 // variables de imágenes
 let imgFondo;
-let imgSitp;
 let imgTransmi;
+let imgFurgon;
 
 // variables de archivos mp3
 let audio1;
+let audio2;
 
 // areas
 let area1;
@@ -15,12 +16,11 @@ function preload() {
   imgFondo = loadImage('assets/trancon.jpg');
 
   // imágenes png
-  imgSitp = loadImage('assets/sitp.png');
   imgTransmi = loadImage('assets/transmi.png');
   imgFurgon = loadImage('assets/furgon.png');
 
   // sonidos
-  audio1 = loadSound('assets/transmilenio.mp3');
+  audio1 = loadSound('assets/transmi.mp3');
   audio2 = loadSound('assets/furgon.mp3');
 }
 
