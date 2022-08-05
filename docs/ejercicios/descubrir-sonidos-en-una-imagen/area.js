@@ -5,7 +5,7 @@ class AreaInteractiva {
     this.ancho = ancho;
     this.alto = alto;
     this.audio = audio;
-    this.playable = false;
+    this.encima = false;
     this.presionado = false;
     this.imgContorno = imgContorno;
   }
@@ -17,9 +17,9 @@ class AreaInteractiva {
       mouseY > this.y &&
       mouseY < this.y + this.alto
     ) {
-      this.playable = true;
+      this.encima = true;
     } else {
-      this.playable = false;
+      this.encima = false;
     }
   }
 
@@ -30,13 +30,17 @@ class AreaInteractiva {
       this.col = color(200, 0, 100);
     }
 
+    /*
+    // rectangulo de referencia
     noFill();
     stroke(255, 0, 0);
-    //rect(this.x, this.y, this.ancho, this.alto);
+    rect(this.x, this.y, this.ancho, this.alto);
+    */
 
     if (this.audio.isPlaying() == true) {
       image(this.imgContorno, 0, 0);
 
+      // barra de progreso del audio
       stroke(this.col);
       noFill();
       rect(this.x, this.y - 30, this.ancho, 10);
@@ -53,12 +57,13 @@ class AreaInteractiva {
   }
 
   pressed() {
-    if (this.playable == true) {
+    if (this.encima == true) {
       this.presionado = true;
       if (this.audio.isPlaying() == false) {
         this.audio.play();
+      } else {
+        this.audio.stop();
       }
-    } else {
     }
   }
 

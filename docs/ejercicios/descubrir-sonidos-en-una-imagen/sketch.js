@@ -1,28 +1,31 @@
+// variables de imágenes
 let imgFondo;
 let imgSitp;
 let imgTransmi;
 
+// variables de archivos mp3
 let audio1;
 let area1;
-let played = false;
 
 function preload() {
+  // imagen fondo jpg
   imgFondo = loadImage('assets/trancon.jpg');
 
+  // imágenes png
   imgSitp = loadImage('assets/sitp.png');
   imgTransmi = loadImage('assets/transmi.png');
   imgFurgon = loadImage('assets/furgon.png');
 
+  // sonidos
   audio1 = loadSound('assets/transmilenio.mp3');
   audio2 = loadSound('assets/furgon.mp3');
 }
 
 function setup() {
   createCanvas(imgFondo.width, imgFondo.height);
+
   background(50);
 
-  // audio1.play();
-  //area = new AreaInteractiva(210, 335, 160, 110, audio1, imgSitp);
   area1 = new AreaInteractiva(874, 70, 100, 80, audio1, imgTransmi);
   area2 = new AreaInteractiva(470, 410, 120, 200, audio2, imgFurgon);
 }
