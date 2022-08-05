@@ -37,7 +37,7 @@ Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 ### Código del ejemplo
 Archivo **`index.html`** </br>
 Recuerda que en **html** todo lo que está ecrito entre `<!--` y `-->` es un comentario, que no afecta el funcionamiento del programa, pero nos sirven de guía para saber lo que estamos haciendo. 
-```
+``` js
 <!DOCTYPE html>
 <html>
   <head>
