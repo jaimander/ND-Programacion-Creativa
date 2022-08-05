@@ -1,12 +1,14 @@
+let cosa;
 
 function setup() {
-  cv = createCanvas(windowWidth, windowHeight);
+  createCanvas(innerWidth, innerHeight);
 
+  cosa = new Cosa(random(width), random(height));
+
+  background(50);
 }
 
 function draw() {
-  background(80);
-  noStroke();
-  fill(random(255));
-  ellipse(200, 200, 100, 100);
+  cosa.mover();
+  cosa.dibujar();
 }
