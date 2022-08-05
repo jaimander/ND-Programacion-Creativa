@@ -70,3 +70,13 @@ function mouseReleased() {
   area1.released();
   area2.released();
 }
+
+function touchStarted() {
+  area1.pressed();
+  area2.pressed();
+}
+
+function touchEnded() {
+  area1.released();
+  area2.released();
+}
