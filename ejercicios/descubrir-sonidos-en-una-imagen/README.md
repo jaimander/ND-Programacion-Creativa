@@ -3,14 +3,15 @@
 ## Instrucciones
 
 ### Descripción
-Realizar un programa que visualice una imagen de fondo que tenga varias zonas de interacción que al hacer clic, activen y desactiven sonidos determinados. muestre una secuencia de escenas que narren una situación breve, usando imagenes/íconos en formato `.png` y estableciendo los cambios de movimiento a partir de intervalos de tiempo establecidos (timers). Las funciones nuevas para realizar esta animación básica son: `millis()`, `loadImage()`, `image()`. Puedes integrar más funciones si deseas. Sugiero usar íconos de la página [https://www.flaticon.es/](https://www.flaticon.es/).
+Realizar un programa que visualice una imagen de fondo que tenga varias zonas de interacción que al hacer clic, activen y desactiven sonidos determinados. Las funciones nuevas para realizar esta animación básica son: `loadSound()`, `play()`, `stop()`, `function mousePressed()`, `function mouseReleased()`, y la librería `p5.sound.js`, para que las funciones relacionadas al uso y manipulación de archivos de audio puedan servir. Puedes integrar más funciones si deseas. 
 
 ### Entregable
 Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 - `sketch.js`. Tu sketch p5js, que debe llamarse "sketch.js" 
+- `[nombre de la clase].js`, que debe contener la clase que define el comportamiento de las zonas de interacción.
 - `referencia.jpg` o `referencia.png`. Una imagen (pantallazo) de referencia de cómo se ve el sketch corriendo en el navegador web, que debe llamarse "referencia.jpg" o "referencia.png"
 - `index.html`. Un archivo html llamado "index.html" que llame al archivo 'sketch.js'. 
-- Una carpeta con el nombre `assets`, que contenga los archivos `.png` utilizados.
+- Una carpeta con el nombre `assets`, que contenga la imagen de fondo `.jpg`, los archivos de audio `.mp3`, y los archivos `.png` utilizados.
 - No incluyas nada más.
 
 ### Criterios de evaluación
@@ -18,18 +19,19 @@ Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 - Subir archivo `index.html`
 - Subir archivo `referencia.jpg` / `referencia.png`
 - Usar `createCanvas()`
-- Usar la función `preload()` para cargar las imagenes al programa.
+- Usar la función `preload()` para cargar las imagenes y los sonidos al programa.
 - Usar `image()`
+- Usar `play()`
+- Usar `stop()`
+- Usar `isPlaying()`
+- Usar `mousePressed()` y `mouseReleased()`
+- Usar `cursor(HAND)` Y `cursor(ARROW)`
 - Asignar al canvas el tamaño de la ventana del navegador web usando `windowWidth` y `windowHeight`
-- Usar `background()` con valores variables
-- Usar `fill()`
-- Usar operaciones de suma `+` y resta `-`
-- Usar operadores de comparación (ej. `==`, `<=`, `>`)
-- Usar alguna figura primitiva (`ellipse()`, `rect()`, etc.)
-- Usar variables
+- Usar variables booleanas (`true` / `false`)
+- Usar objetos y clases para definir las zonas de interacción y reproducción de sonido (OOP) 
 - Usar condicionales `if(){}`
 - Que el programa corra sin errores
-- Archivo .zip organizado conforme a las indicaciones (`index.html`, `sketch.js, referencia.png`y carpeta `assets` con las imágenes usadas).
+- Archivo .zip organizado conforme a las indicaciones (`index.html`, `sketch.js, referencia.png`y carpeta `assets` con las imágenes y sonidos usados).
 - 
 ## Ejemplo
 [https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/descubrir-sonidos-en-una-imagen/](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/descubrir-sonidos-en-una-imagen/)
@@ -60,12 +62,16 @@ Recuerda que en **JavaScript** todo lo que está ecrito despues de `//` es un co
 ``` js
 // variables de imágenes
 let imgFondo;
-let imgSitp;
+let imgFurgon;
 let imgTransmi;
 
 // variables de archivos mp3
 let audio1;
+let audio1;
+
+// áreas de interacción
 let area1;
+let area2;
 
 function preload() {
   // imagen fondo jpg
