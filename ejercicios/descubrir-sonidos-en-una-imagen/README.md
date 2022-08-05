@@ -31,7 +31,7 @@ Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 - Que el programa corra sin errores
 - Archivo .zip organizado conforme a las indicaciones (`index.html`, `sketch.js, referencia.png`y carpeta `assets` con las imágenes usadas).
 ## Ejemplo
-[https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/uso-de-imagenes-de-la-web/](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/uso-de-imagenes-de-la-web/)
+[https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/descrubrir-sonidos-en-una-imagen/](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/descubrir-sonidos-en-una-imagen/)
 
 ### Código del ejemplo
 Archivo **`index.html`** </br>
@@ -127,7 +127,7 @@ function draw() {
 }
 ```
 ### Imagen de referencia
-![](https://github.com/jaimander/ND-Programacion-Creativa/blob/main/ejercicios/uso-de-imagenes-de-la-web/referencia.png) 
+![](https://github.com/jaimander/ND-Programacion-Creativa/blob/main/ejercicios/descrubrir-sonidos-en-una-imagen/referencia.png) 
 
 
 
