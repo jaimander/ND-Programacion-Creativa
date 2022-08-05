@@ -83,10 +83,10 @@ function draw() {
   objeto1.update();
   objeto2.update();
 
-  let distP1 = dist(objeto1.x, objeto1.y, mouseX, mouseY);
-  let distP2 = dist(objeto2.x, objeto2.y, mouseX, mouseY);
+  let dist1 = dist(objeto1.x, objeto1.y, mouseX, mouseY);
+  let dist2 = dist(objeto2.x, objeto2.y, mouseX, mouseY);
 
-  if(distP1 < 220 && distP2 < 220){
+  if(dist1 < 220 && dist2 < 220){
     cfondo = color(0, 255, 100);
   }
   else{
