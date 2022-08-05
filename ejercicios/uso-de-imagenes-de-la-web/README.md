@@ -1,4 +1,4 @@
-# Ejercicio 6 - Uso de imágenes de la web
+# Ejercicio 6 - Descubrir sonidos en una imagen
 
 ## Instrucciones
 
@@ -31,7 +31,7 @@ Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 - Que el programa corra sin errores
 - Archivo .zip organizado conforme a las indicaciones (`index.html`, `sketch.js, referencia.png`y carpeta `assets` con las imágenes usadas).
 ## Ejemplo
-[https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/uso-de-imagenes-de-la-web/](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/dibujo-geometrico/)
+[https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/uso-de-imagenes-de-la-web/](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/uso-de-imagenes-de-la-web/)
 
 ### Código del ejemplo
 Archivo **`index.html`** </br>
