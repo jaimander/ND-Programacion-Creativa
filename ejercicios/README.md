@@ -5,7 +5,7 @@
 - [Ejercicio 3: Poema interactivo](https://github.com/jaimander/ND-Programacion-Creativa/tree/main/ejercicios/poema-interactivo) 
 - [Ejercicio 4: Escenas en movimiento](https://github.com/jaimander/ND-Programacion-Creativa/tree/main/ejercicios/escenas-en-movimiento) 
 - [Ejercicio 5: Generador de limericks](https://github.com/jaimander/ND-Programacion-Creativa/tree/main/ejercicios/generador-de-limericks) 
-- [Ejercicio 6: Uso de imágenes de la web](https://github.com/jaimander/ND-Programacion-Creativa/tree/main/ejercicios/uso-de-imagenes-de-la-web) 
+- [Ejercicio 6: Descubrir sonidos en una imagen](https://github.com/jaimander/ND-Programacion-Creativa/tree/main/ejercicios/descubrir-sonidos-en-una-imagen) 
 
 ## Referencia rápida de los ejercicios
 ### Ejercicio 1
@@ -18,6 +18,8 @@
 ![](https://github.com/jaimander/ND-Programacion-Creativa/blob/main/ejercicios/escenas-en-movimiento/referencia.png) 
 ### Ejercicio 5
 ![](https://github.com/jaimander/ND-Programacion-Creativa/blob/main/ejercicios/generador-de-limericks/referencia.png) 
+### Ejercicio 6
+![](https://github.com/jaimander/ND-Programacion-Creativa/blob/main/ejercicios/descubrir-sonidos-en-una-imagen/referencia.png) 
 
 
 
