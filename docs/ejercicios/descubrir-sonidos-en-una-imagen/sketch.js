@@ -5,7 +5,10 @@ let imgTransmi;
 
 // variables de archivos mp3
 let audio1;
+
+// areas
 let area1;
+let area2;
 
 function preload() {
   // imagen fondo jpg
