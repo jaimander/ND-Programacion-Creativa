@@ -1,5 +1,5 @@
 class AreaInteractiva {
-  constructor(x, y, ancho, alto, audio) {
+  constructor(x, y, ancho, alto, audio, imgContorno) {
     this.x = x;
     this.y = y;
     this.ancho = ancho;
@@ -7,6 +7,7 @@ class AreaInteractiva {
     this.audio = audio;
     this.playable = false;
     this.presionado = false;
+    this.imgContorno = imgContorno;
   }
 
   actualizar() {
@@ -17,10 +18,8 @@ class AreaInteractiva {
       mouseY < this.y + this.alto
     ) {
       this.playable = true;
-      console.log('playable = true');
     } else {
       this.playable = false;
-      console.log('playable = false');
     }
   }
 
@@ -28,31 +27,39 @@ class AreaInteractiva {
     if (this.presionado == true) {
       this.col = color(255);
     } else {
-      this.col = color(255, 0, 0);
+      this.col = color(200, 0, 100);
     }
 
-    stroke(this.col);
     noFill();
-    rect(this.x, this.y, this.ancho, this.alto);
+    stroke(255, 0, 0);
+    //rect(this.x, this.y, this.ancho, this.alto);
+
+    if (this.audio.isPlaying() == true) {
+      image(this.imgContorno, 0, 0);
+
+      stroke(this.col);
+      noFill();
+      rect(this.x, this.y - 30, this.ancho, 10);
+
+      noStroke();
+      fill(255);
+      rect(
+        this.x,
+        this.y - 30,
+        map(this.audio.currentTime(), 0, this.audio.duration(), 0, this.ancho),
+        10
+      );
+    }
   }
 
   pressed() {
     if (this.playable == true) {
-      /*
-      fill(random(255));
-      ellipse(
-        this.x + this.ancho / 2,
-        this.y + this.alto / 2,
-        this.ancho / 2,
-        this.alto / 2
-      );
-      */
-      console.log('hace clic en el area y se reproduce el sonido');
-      console.log('presionado es true');
       this.presionado = true;
+      if (this.audio.isPlaying() == false) {
+        this.audio.play();
+      }
     } else {
     }
-    //this.presionado = false;
   }
 
   released() {
