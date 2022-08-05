@@ -3,7 +3,7 @@
 ## Instrucciones
 
 ### Descripción
-Realizar un programa que muestre una secuencia de escenas que narren una situación breve, usando imagenes/íconos en formato `.png` y estableciendo los cambios de movimiento a partir de intervalos de tiempo establecidos (timers). Las funciones nuevas para realizar esta animación básica son: `millis()`, `loadImage()`, `image()`. Puedes integrar más funciones si deseas. Sugiero usar íconos de la página [https://www.flaticon.es/](https://www.flaticon.es/).
+Realizar un programa que visualice una imagen de fondo que tenga varias zonas de interacción que al hacer clic, activen y desactiven sonidos determinados. muestre una secuencia de escenas que narren una situación breve, usando imagenes/íconos en formato `.png` y estableciendo los cambios de movimiento a partir de intervalos de tiempo establecidos (timers). Las funciones nuevas para realizar esta animación básica son: `millis()`, `loadImage()`, `image()`. Puedes integrar más funciones si deseas. Sugiero usar íconos de la página [https://www.flaticon.es/](https://www.flaticon.es/).
 
 ### Entregable
 Debes enviar un archivo .zip que solo contenga los siguientes archivos:
