@@ -37,7 +37,7 @@ Este ejemplo está basado en la siguiente premisa: "A veces, con algo de atenci�
 ### Código del ejemplo
 Archivo **`index.html`** </br>
 Recuerda que en **html** todo lo que está ecrito entre `<!--` y `-->` es un comentario, que no afecta el funcionamiento del programa, pero nos sirven de guía para saber lo que estamos haciendo. 
-```
+``` html
 <!DOCTYPE html>
 <html>
   <head>
@@ -54,7 +54,7 @@ Recuerda que en **html** todo lo que está ecrito entre `<!--` y `-->` es un com
 Archivo **`sketch.js`** </br>
 Recuerda que en **JavaScript** todo lo que está ecrito despues de `//` es un comentario, que no afecta el funcionamiento del programa, pero nos sirven de guía para saber lo que estamos haciendo. 
 
-```
+``` js
 // "A veces, con algo de atención y suerte, puedo lograr que lo que debo hacer y lo que quiero hacer, coincida."
 let xcir, ycir;
 let pregunta1;
