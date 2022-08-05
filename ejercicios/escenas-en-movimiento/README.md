@@ -39,7 +39,7 @@ Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 Archivo **`index.html`** </br>
 Recuerda que en **html** todo lo que está ecrito entre `<!--` y `-->` es un comentario, que no afecta el funcionamiento del programa, pero nos sirven de guía para saber lo que estamos haciendo. 
 
-```
+``` html
 <!DOCTYPE html>
 <html>
   <head>
@@ -55,7 +55,7 @@ Recuerda que en **html** todo lo que está ecrito entre `<!--` y `-->` es un com
 Archivo **`sketch.js`** </br>
 Recuerda que en **JavaScript** todo lo que está ecrito despues de `//` es un comentario, que no afecta el funcionamiento del programa, pero nos sirven de guía para saber lo que estamos haciendo. 
 
-```
+``` js
 // https://www.flaticon.com/premium-icon/tree_4319613?term=tree&page=1&position=64&page=1&position=64&related_id=4319613&origin=search
 // https://www.flaticon.com/premium-icon/elephant_3359878?related_id=3359878&origin=search
 

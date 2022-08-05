@@ -39,7 +39,7 @@ Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 ### Código del ejemplo
 Archivo **`index.html`** </br>
 Recuerda que en **html** todo lo que está escrito entre `<!--` y `-->` es un comentario, que no afecta el funcionamiento del programa, pero nos sirven de guía para saber lo que estamos haciendo. 
-```
+``` html
 <!DOCTYPE html>
 <html>
   <head>
@@ -56,7 +56,7 @@ Recuerda que en **html** todo lo que está escrito entre `<!--` y `-->` es un co
 Archivo **`sketch.js`** </br>
 Recuerda que en **JavaScript** todo lo que está ecrito despues de `//` es un comentario, que no afecta el funcionamiento del programa, pero nos sirven de guía para saber lo que estamos haciendo. 
 
-```
+``` js
 // arrays de strings
 let v1 = [];
 let v2 = [];

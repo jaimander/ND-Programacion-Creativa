@@ -37,7 +37,7 @@ Debes enviar un archivo `.zip` que solo contenga los siguientes archivos:
 ### Código del ejemplo
 Archivo **`index.html`** </br>
 Recuerda que en **html** todo lo que está ecrito entre `<!--` y `-->` es un comentario, que no afecta el funcionamiento del programa, pero nos sirven de guía para saber lo que estamos haciendo. 
-```
+``` html
 <!DOCTYPE html>
 <html>
   <head>
@@ -53,8 +53,8 @@ Recuerda que en **html** todo lo que está ecrito entre `<!--` y `-->` es un com
 Archivo **`sketch.js`** </br>
 Recuerda que en **JavaScript** todo lo que está ecrito despues de `//` es un comentario, que no afecta el funcionamiento del programa, pero nos sirven de guía para saber lo que estamos haciendo. 
 
-```
-unction setup() {
+``` js
+function setup() {
   createCanvas(windowWidth, windowHeight);
   pixelDensity(1); // desactiva la función de densidad de pixeles, lo que mejora la visualización en dispositivos moviles
   background(180, 200, 250);
