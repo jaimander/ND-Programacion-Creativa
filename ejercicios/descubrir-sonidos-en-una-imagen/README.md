@@ -37,7 +37,7 @@ Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 ### Código del ejemplo
 Archivo **`index.html`** </br>
 Recuerda que en **html** todo lo que está ecrito entre `<!--` y `-->` es un comentario, que no afecta el funcionamiento del programa, pero nos sirven de guía para saber lo que estamos haciendo. 
-``` ruby
+``` html
 <!DOCTYPE html>
 <html>
   <head>
@@ -56,7 +56,8 @@ Recuerda que en **html** todo lo que está ecrito entre `<!--` y `-->` es un com
 
 Archivo **`sketch.js`** </br>
 Recuerda que en **JavaScript** todo lo que está ecrito despues de `//` es un comentario, que no afecta el funcionamiento del programa, pero nos sirven de guía para saber lo que estamos haciendo. 
-```
+
+``` js
 // variables de imágenes
 let imgFondo;
 let imgSitp;
@@ -133,7 +134,7 @@ function mouseReleased() {
 ```
 
 Archivo **`area.js`** </br>
-```
+``` js
 class AreaInteractiva {
   constructor(x, y, ancho, alto, audio, imgContorno) {
     this.x = x;
