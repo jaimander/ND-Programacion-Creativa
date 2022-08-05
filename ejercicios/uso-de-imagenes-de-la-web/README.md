@@ -1,4 +1,4 @@
-# Ejercicio 6 - Uso de imágenes de la web
+# Ejercicio 6 - Descubrir sonidos en una imagen
 
 ## Instrucciones
 
