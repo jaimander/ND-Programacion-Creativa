@@ -25,7 +25,7 @@ Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 - Usar `stop()`
 - Usar `isPlaying()`
 - Usar `mousePressed()` y `mouseReleased()`
-- Usar `cursor(HAND)` Y `cursor(ARROW)`
+- Usar `cursor(HAND)` y `cursor(ARROW)`
 - Asignar al canvas el tamaño de la ventana del navegador web usando `windowWidth` y `windowHeight`
 - Usar variables booleanas (`true` / `false`)
 - Usar objetos y clases para definir las zonas de interacción y reproducción de sonido (OOP) 
