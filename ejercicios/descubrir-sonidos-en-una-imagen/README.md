@@ -62,14 +62,14 @@ Recuerda que en **JavaScript** todo lo que está ecrito despues de `//` es un co
 ``` js
 // variables de imágenes
 let imgFondo;
-let imgFurgon;
 let imgTransmi;
+let imgFurgon;
 
 // variables de archivos mp3
 let audio1;
-let audio1;
+let audio2;
 
-// áreas de interacción
+// areas
 let area1;
 let area2;
 
@@ -78,12 +78,11 @@ function preload() {
   imgFondo = loadImage('assets/trancon.jpg');
 
   // imágenes png
-  imgSitp = loadImage('assets/sitp.png');
   imgTransmi = loadImage('assets/transmi.png');
   imgFurgon = loadImage('assets/furgon.png');
 
   // sonidos
-  audio1 = loadSound('assets/transmilenio.mp3');
+  audio1 = loadSound('assets/transmi.mp3');
   audio2 = loadSound('assets/furgon.mp3');
 }
 
@@ -133,6 +132,16 @@ function mousePressed() {
 }
 
 function mouseReleased() {
+  area1.released();
+  area2.released();
+}
+
+function touchStarted() {
+  area1.pressed();
+  area2.pressed();
+}
+
+function touchEnded() {
   area1.released();
   area2.released();
 }
