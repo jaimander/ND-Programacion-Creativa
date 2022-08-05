@@ -210,6 +210,6 @@ class AreaInteractiva {
 ```
 
 ### Imagen de referencia
-![](https://github.com/jaimander/ND-Programacion-Creativa/blob/main/ejercicios/descrubrir-sonidos-en-una-imagen/referencia.png) 
+![](https://github.com/jaimander/ND-Programacion-Creativa/blob/main/ejercicios/descubrir-sonidos-en-una-imagen/referencia.png) 
 
 
