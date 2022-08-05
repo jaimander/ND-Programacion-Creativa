@@ -30,8 +30,9 @@ Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 - Usar condicionales `if(){}`
 - Que el programa corra sin errores
 - Archivo .zip organizado conforme a las indicaciones (`index.html`, `sketch.js, referencia.png`y carpeta `assets` con las imágenes usadas).
+- 
 ## Ejemplo
-[https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/descrubrir-sonidos-en-una-imagen/](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/descubrir-sonidos-en-una-imagen/)
+[https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/descubrir-sonidos-en-una-imagen/](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/descubrir-sonidos-en-una-imagen/)
 
 ### Código del ejemplo
 Archivo **`index.html`** </br>
@@ -40,10 +41,14 @@ Recuerda que en **html** todo lo que está ecrito entre `<!--` y `-->` es un com
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8" /> 
-    <title>Dibujo geométrico</title>
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script> <!-- aquí se llama la librería de p5.js-->
-    <script src="sketch.js"></script> <!-- aquí se llama el archivo sketch.js -->
+    <meta charset="UTF-8" />
+    <title>Descubrir sonidos en una imagen</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
+    <script src="libs/p5.sound.js"></script>
+    <!-- importamos la librería de sonido -->
+    <script src="sketch.js"></script>
+    <script src="area.js"></script>
+    <!-- importamos el script donde está la clase -->
   </head>
   <body></body>
 </html>
@@ -52,80 +57,158 @@ Recuerda que en **html** todo lo que está ecrito entre `<!--` y `-->` es un com
 Archivo **`sketch.js`** </br>
 Recuerda que en **JavaScript** todo lo que está ecrito despues de `//` es un comentario, que no afecta el funcionamiento del programa, pero nos sirven de guía para saber lo que estamos haciendo. 
 ```
+// variables de imágenes
+let imgFondo;
+let imgSitp;
+let imgTransmi;
+
+// variables de archivos mp3
+let audio1;
+let area1;
+
+function preload() {
+  // imagen fondo jpg
+  imgFondo = loadImage('assets/trancon.jpg');
+
+  // imágenes png
+  imgSitp = loadImage('assets/sitp.png');
+  imgTransmi = loadImage('assets/transmi.png');
+  imgFurgon = loadImage('assets/furgon.png');
+
+  // sonidos
+  audio1 = loadSound('assets/transmilenio.mp3');
+  audio2 = loadSound('assets/furgon.mp3');
+}
+
 function setup() {
-  cv = createCanvas(400, 400);
+  createCanvas(imgFondo.width, imgFondo.height);
+
+  background(50);
+
+  area1 = new AreaInteractiva(874, 70, 100, 80, audio1, imgTransmi);
+  area2 = new AreaInteractiva(470, 410, 120, 200, audio2, imgFurgon);
 }
 
 function draw() {
-  background(40);
+  image(imgFondo, 0, 0);
 
-  // rueda
-  fill(180);
-  noStroke();
-  ellipse(205, 270, 40, 40);
+  area1.actualizar();
+  area1.mostrar();
 
-  // procesador y antena
-  stroke(250, 250, 0);
-  strokeWeight(2);
-  line(233, 75, 233, 95);
-  noStroke();
-  fill(25, 200, 100);
-  rect(190, 110, 55, 30);
-  rect(228, 95, 10, 30);
-  triangle(245, 140, 220, 160, 200, 140);
+  area2.actualizar();
+  area2.mostrar();
 
-  // cabeza
-  noStroke();
-  fill(255);
-  beginShape();
-  vertex(180, 100);
-  vertex(200, 100);
-  vertex(230, 135);
-  vertex(230, 270);
-  vertex(180, 270);
-  endShape();
-
-  // ojo
-  fill(0);
-  ellipse(200, 150, 25, 25);
+  /*
   fill(255, 0, 0);
-  ellipse(212, 130, 5, 5);
-  ellipse(200, 150, 8, 8);
+  textSize(20);
+  text(mouseX + ' ' + mouseY, mouseX, mouseY);
+  */
 
-  // altavoz
-  stroke(0);
-  strokeWeight(2);
-  line(220, 180, 220, 200);
-  line(225, 180, 225, 200);
-  line(215, 180, 215, 200);
+  if (
+    (mouseX > area1.x &&
+      mouseX < area1.x + area1.ancho &&
+      mouseY > area1.y &&
+      mouseY < area1.y + area1.alto) ||
+    (mouseX > area2.x &&
+      mouseX < area2.x + area2.ancho &&
+      mouseY > area2.y &&
+      mouseY < area2.y + area2.alto)
+  ) {
+    cursor(HAND);
+  } else {
+    cursor(ARROW);
+  }
+}
 
-  // sensor
-  fill(0);
-  ellipse(210, 250, 10, 10);
+function mousePressed() {
+  area1.pressed();
+  area2.pressed();
+}
 
-  // tornillos
-  noStroke();
-  fill(110);
-  ellipse(184, 104, 3, 3);
-  ellipse(199, 104, 3, 3);
-  ellipse(226, 136, 3, 3);
-  ellipse(184, 266, 3, 3);
-  ellipse(226, 266, 3, 3);
+function mouseReleased() {
+  area1.released();
+  area2.released();
+}
 
-  // pantalla
-  fill(190);
-  rect(150, 200, 30, 20);
-  fill(255);
-  rect(150, 220, 30, 10);
-  fill(0, 50, 50);
-  rect(155, 205, 20, 10);
-  strokeWeight(1);
-  stroke(255);
-  point(160, 208);
-  line(164, 208, 170, 208);
-  line(158, 212, 167, 212);
+```
+
+Archivo **`area.js`** </br>
+```
+class AreaInteractiva {
+  constructor(x, y, ancho, alto, audio, imgContorno) {
+    this.x = x;
+    this.y = y;
+    this.ancho = ancho;
+    this.alto = alto;
+    this.audio = audio;
+    this.encima = false;
+    this.presionado = false;
+    this.imgContorno = imgContorno;
+  }
+
+  actualizar() {
+    if (
+      mouseX > this.x &&
+      mouseX < this.x + this.ancho &&
+      mouseY > this.y &&
+      mouseY < this.y + this.alto
+    ) {
+      this.encima = true;
+    } else {
+      this.encima = false;
+    }
+  }
+
+  mostrar() {
+    if (this.presionado == true) {
+      this.col = color(255);
+    } else {
+      this.col = color(200, 0, 100);
+    }
+
+    /*
+    // rectangulo de referencia
+    noFill();
+    stroke(255, 0, 0);
+    rect(this.x, this.y, this.ancho, this.alto);
+    */
+
+    if (this.audio.isPlaying() == true) {
+      image(this.imgContorno, 0, 0);
+
+      // barra de progreso del audio
+      stroke(this.col);
+      noFill();
+      rect(this.x, this.y - 30, this.ancho, 10);
+
+      noStroke();
+      fill(255);
+      rect(
+        this.x,
+        this.y - 30,
+        map(this.audio.currentTime(), 0, this.audio.duration(), 0, this.ancho),
+        10
+      );
+    }
+  }
+
+  pressed() {
+    if (this.encima == true) {
+      this.presionado = true;
+      if (this.audio.isPlaying() == false) {
+        this.audio.play();
+      } else {
+        this.audio.stop();
+      }
+    }
+  }
+
+  released() {
+    this.presionado = false;
+  }
 }
 ```
+
 ### Imagen de referencia
 ![](https://github.com/jaimander/ND-Programacion-Creativa/blob/main/ejercicios/descrubrir-sonidos-en-una-imagen/referencia.png) 
 
