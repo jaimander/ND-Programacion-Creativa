@@ -57,16 +57,16 @@ Recuerda que en **JavaScript** todo lo que está ecrito despues de `//` es un co
 ``` js
 // "A veces, con algo de atención y suerte, puedo lograr que lo que debo hacer y lo que quiero hacer, coincida."
 let xcir, ycir;
-let pregunta1;
-let pregunta2;
+let objeto1;
+let objeto2;
 let cfondo;
 
 function setup() {
   cv = createCanvas(windowWidth, windowHeight);
   xcir = width / 2;
   ycir = height / 2;
-  pregunta1 = new Pregunta(color(255, 255, 0));
-  pregunta2 = new Pregunta(color(0, 200, 255));
+  objeto1 = new Objeto(color(255, 255, 0));
+  objeto2 = new Objeto(color(0, 200, 255));
   cfondo = 80;
 }
 
@@ -80,11 +80,11 @@ function draw() {
   strokeWeight(3);
   ellipse(mouseX, mouseY, 400, 400);
 
-  pregunta1.update();
-  pregunta2.update();
+  objeto1.update();
+  objeto2.update();
 
-  let distP1 = dist(pregunta1.x, pregunta1.y, mouseX, mouseY);
-  let distP2 = dist(pregunta2.x, pregunta2.y, mouseX, mouseY);
+  let distP1 = dist(objeto1.x, objeto1.y, mouseX, mouseY);
+  let distP2 = dist(objeto2.x, objeto2.y, mouseX, mouseY);
 
   if(distP1 < 220 && distP2 < 220){
     cfondo = color(0, 255, 100);
@@ -94,7 +94,7 @@ function draw() {
   }
 }
 
-class Pregunta {
+class Objeto {
   constructor(col) {
     this.x = random(width);
     this.y = random(height);
