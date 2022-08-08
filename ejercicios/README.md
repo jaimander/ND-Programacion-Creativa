@@ -9,7 +9,7 @@
 
 ## Referencia rápida de los ejercicios
 ### Ejercicio 1
-![](https://github.com/jaimander/ND-Programacion-Creativa/blob/main/ejercicios/dibujo-geometrico/referencia.png) 
+![https://github.com/jaimander/ND-Programacion-Creativa/tree/main/ejercicios/dibujo-geometrico](https://github.com/jaimander/ND-Programacion-Creativa/blob/main/ejercicios/dibujo-geometrico/referencia.png) 
 ### Ejercicio 2
 ![](https://github.com/jaimander/ND-Programacion-Creativa/blob/main/ejercicios/patrones-graficos/referencia.png) 
 ### Ejercicio 3
