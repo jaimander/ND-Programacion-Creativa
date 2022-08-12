@@ -22,7 +22,7 @@ Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 - Usar `createCanvas()`
 - Asignar al canvas un tamaño de 400 x 400
 - Usar `stroke()`
-- Usar `strokeWeight()
+- Usar `strokeWeight()`
 - Usar `noStroke()`
 - Usar `fill()`
 - Usar `noFill()`
