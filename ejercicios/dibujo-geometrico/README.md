@@ -6,7 +6,7 @@
 Realizar un programa que dibuje una **criatura robótica, que puede ser o no antropomorfa**, usando únicamente figuras geométricas y variaciones de color.
 Las funciones para realizar el dibujo de ese personaje son:
 `stroke()`, `rect()`, `ellipse()`, `triangle()`, `fill()`. 
-Puedes integrar más funciones si deseas. 
+Puedes integrar más funciones si deseas. </br>
 En el siguiente link: puedes encontrar una referencia de las figuras primitivas disponibles [https://p5js.org/es/examples/form-shape-primitives.html](https://p5js.org/es/examples/form-shape-primitives.html)
 
 ### Entregable
