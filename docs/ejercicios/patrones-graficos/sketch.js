@@ -35,7 +35,7 @@ function setup() {
     stroke(colMont2);
     line(x, y2, x, height);
   }
-
+  
   // capa 3 edificios
   stroke(255);
   for (let i = 0; i < width; i += random(50, 100)) {
