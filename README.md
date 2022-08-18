@@ -1,5 +1,8 @@
 ![](https://github.com/jaimander/nd-programacioncreativa/blob/main/docs/fp-gh-code.png)
 # Programación creativa 
+La programación se encuentra en las bases de los medios y tecnologías digitales, no solo como elemento constitutivo de su funcionamiento técnico, si no también como modo de pensar a partir de algoritmos, estructuras condicionales, variables y ciclos, que pueden ser vistos como componentes que dan forma a lenguajes y formatos comunicacionales que definen las maneras contemporáneas de narrar y expresarse, donde la interactividad y la generatividad aparecen como algunas de las cualidades distintivas. En este curso nos aproximaremos a la programación a través de sus fundamentos, mediante diversos ejercicios orientados a la exploración de las posibilidades expresivas y narrativas que ofrece, haciendo uso de una librería de JavaScript llamada p5.js. 
+
+Aunque nos concentraremos principalmente en aprovechar las posibilidades de esta librería, también nos familiarizaremos con aspectos transversales al desarrollo web, como lo es la configuración de un entorno de desarrollo y la integración de los principales lenguajes de programación (HTML, CSS y JavaScript) que conforman la estructura y funcionamiento básico de un sitio web.
 
 ## Variables que influyen en los resultados de un programador creativo
 - El tiempo que dediques a programar (o "cacharrear", como se dice coloquialmente), se verá reflejado en los resultados alcanzados.
