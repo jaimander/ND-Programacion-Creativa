@@ -16,8 +16,14 @@
 ## Tutoriales
 Aquí encontrarás tutoriales que te ayudarán a revisar algunos procedimientos. Es bueno tener una biblioteca de guías, tutoriales y ejemplos para volver siempre a ellos cuando algo se nos olvide o no nos funcione. Puede ocurrir que pasemos por alto algún detalle y por eso algo no esté funcionando como debería.
 
-- [Correr proyecto de p5.js en servidor local y ponerlo online mediante GitHub](https://github.com/jaimander/nd-programacioncreativa/wiki/p5.js-en-servidor-local-y-ponerlo-en-l%C3%ADnea-usando-GitHub)
+### Guías
 - [¿Qué programas necesito instalar?](https://github.com/jaimander/ND-Programacion-Creativa/wiki/%C2%BFQu%C3%A9-programas-necesito%3F)
+- [Correr p5.js en servidor local](https://github.com/jaimander/ND-Programacion-Creativa/wiki/Correr-p5.js-en-servidor-local)
+- [Subir a la web un proyecto de p5.js usando GitHub](https://github.com/jaimander/ND-Programacion-Creativa/wiki/Subir-a-la-web-un-proyecto-de-p5.js-usando-GitHub)
+- [Comandos útiles](https://github.com/jaimander/ND-Programacion-Creativa/wiki/Comandos-%C3%BAtiles)
+
+### Recursos
+- [Plantilla para hacer un proyecto usando p5.js](https://github.com/jaimander/ND-Programacion-Creativa/wiki/Plantilla-proyecto-p5.js)
 
 ## Ejercicios
 Son [seis ejercicios](https://github.com/jaimander/ND-Programacion-Creativa/tree/main/ejercicios) en total (además del proyecto final grupal), que se explican [aquí](https://github.com/jaimander/ND-Programacion-Creativa/tree/main/ejercicios). Todos los ejercicios deben presentarse en una carpeta `.zip` con nombre y apellido, seguido del # del ejercicio, siguiendo esta estructura: **nombre-apellido-#ej** (ej. "jaime-rodriguez-1").
