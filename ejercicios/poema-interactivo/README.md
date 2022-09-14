@@ -28,7 +28,7 @@ Debes enviar un archivo .zip que solo contenga los siguientes archivos:
 - Integrar al menos una figura construida como un objeto a partir de una clase
 - Que el programa corra sin errores
 - Usar variables
-- La idea o premisa conceptual o narrativa que se está ilustrando, puesta como un comentario al inicio del archivo `sketch.js 
+- La idea o premisa conceptual o narrativa que se está ilustrando, puesta como un comentario al inicio del archivo `sketch.js` 
 
 ## Ejemplo
 [https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/poema-interactivo/](https://jaimander.github.io/ND-Programacion-Creativa/ejercicios/poema-interactivo/) <br/>
