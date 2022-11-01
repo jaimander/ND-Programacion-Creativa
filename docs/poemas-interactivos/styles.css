@@ -2,7 +2,7 @@
 
 body{
   font-family: 'Manrope', sans-serif;
-  background-color: #ffffff;
+  background-color: #d6d6d6;
   color: rgb(0, 0, 0);
   margin: 0;
 }
@@ -16,6 +16,7 @@ body{
   position: relative;
   padding-top: 5px;
   padding-bottom: 5px;
+
 }
 
 .titulo p{
@@ -23,6 +24,9 @@ body{
   margin-bottom: 0;
   margin-left: 20px;
   font-size: 30px;
+  display: inline;
+  outline-style: solid;
+  outline-width: 1px;
 }
 
 .descripcion{
@@ -42,7 +46,51 @@ body{
   font-size: 15px;
 }
 
+.galeria{
+  display:flex; /*Enables flexbox code */
+  flex-direction:row; /* Axis or cross axis and defines the direction of the flex items*/
+  flex-wrap:wrap; /* determine how the flex items behave when the flex container is too small*/
+  justify-content:center; /* Aligns the content in the display*/
+  align-items:center; /*Align items in the cross axis*/
+  padding:40px 25px; /* Make space (cushion)  around your elements */
+  gap:16px; /* Creates space between content/objects */
+}
 
+.caja-poema{
+  position: relative;
+  /*outline-style: solid;*/
+  max-width:350px;
+  height:350px;
+  width:100%;
+  object-fit:cover;
+  outline-style: solid;
+  outline-color: rgb(0, 0, 0);
+  outline-width: 1px;
+ }
+
+ .caja-poema img{
+  width:100%;
+  max-width:350px;
+  height:350px;
+  
+ }
+
+.nombre{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgb(255, 255, 255);
+  outline-style: solid;
+  outline-width: 1px;
+  color: rgb(0, 0, 0);
+ }
+ 
+ .nombre p{
+   margin: 0px 10px 0px 10px;
+   
+ }
+
+/*
 .contenedor-poemas{
   outline-style: solid;
   display: grid;
@@ -72,12 +120,12 @@ body{
  top: 0px;
  left: 0px;
  background-color: rgb(255, 255, 255);
- 
 }
 
 .nombre p{
   margin: 0px 10px 0px 10px;
 }
+*/
 
 /*
 
