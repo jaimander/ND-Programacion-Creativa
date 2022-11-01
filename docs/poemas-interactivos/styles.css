@@ -69,6 +69,10 @@ body{
   bottom: 0;
   padding-left: 10px;
   padding-right: 10px;
+ 
+}
+
+p.nombre{
   font-size: 20px;
 }
 
