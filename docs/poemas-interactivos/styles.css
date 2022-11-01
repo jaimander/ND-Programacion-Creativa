@@ -26,7 +26,9 @@ body{
   font-size: 30px;
   display: inline;
   outline-style: solid;
-  outline-width: 1px;
+  outline-width: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .descripcion{
@@ -65,7 +67,7 @@ body{
   object-fit:cover;
   outline-style: solid;
   outline-color: rgb(0, 0, 0);
-  outline-width: 1px;
+  outline-width: 2px;
  }
 
  .caja-poema img{
@@ -87,7 +89,8 @@ body{
  
  .nombre p{
    margin: 0px 10px 0px 10px;
-   
+   padding-left: 5px;
+   padding-right: 5px;
  }
 
 /*
