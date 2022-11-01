@@ -24,9 +24,9 @@ body{
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 20px;
+  margin-right: 20px;
   font-size: 30px;
-  display: relative;
-  /*
+ /*
   outline-style: solid;
   outline-width: 2px;
   */
@@ -35,11 +35,9 @@ body{
 }
 
 .descripcion{
-  width: 99%;
+  width: 100%;
   margin: 0;
   padding-top: 2px;
-  padding-left: 5px;
-  padding-right: 5px;
   padding-bottom: 4px;
   background-color: rgb(228, 255, 152);
   position: relative;
