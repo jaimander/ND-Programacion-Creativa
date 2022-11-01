@@ -1,6 +1,78 @@
-@import url(//fonts.googleapis.com/css?family=Work+Sans);
+  @import url(//fonts.googleapis.com/css?family=Manrope);
 
-body {
-  padding: 5px;
-  font-family: 'Work Sans', sans-serif;
+body{
+  font-family: 'Manrope', sans-serif;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  margin: 0;
 }
+
+.titulo{
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: rgb(195, 253, 36);
+  font-family: 'Manrope', sans-serif;
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.titulo p{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+.descripcion{
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 2px;
+  padding-bottom: 4px;
+  background-color: rgb(228, 255, 152);
+  position: relative;
+}
+
+.descripcion p{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  flex-wrap: wrap;
+}
+
+.poema{
+ flex-grow: 1;
+ margin-left: 5px;
+ margin-right: 5px;
+ position: relative;
+}
+
+.poema img{
+ width: 100%;
+ height: auto;
+}
+
+.nombre{
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  bottom: 0;
+  height: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+
+
+
