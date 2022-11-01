@@ -42,26 +42,30 @@ body{
   font-size: 15px;
 }
 
-.menu{
-  display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
-  margin-left: 100px;
-  margin-right: 100px;
-  flex-wrap: wrap;
+
+.contenedor-poemas{
+  border-style: solid;
+
 }
 
-.poema{
- flex-grow: 1;
- margin-left: 5px;
- margin-right: 5px;
- position: relative;
+.caja-poema{
+position: relative;
+
 }
 
-.poema img{
- width: 100%;
- height: auto;
+.nombre{
+ position: absolute;
+ top: 0px;
+ left: 0px;
+ background-color: rgb(255, 255, 255);
+ 
 }
+
+.nombre p{
+  margin: 0px 10px 0px 10px;
+}
+
+/*
 
 .nombre{
   position: absolute;
@@ -72,10 +76,11 @@ body{
  
 }
 
-p.nombre{
-  font-size: 20px;
+.nombre p{
+  font-size: 25px;
 }
 
 
 
 
+*/
