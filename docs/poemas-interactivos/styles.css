@@ -50,14 +50,32 @@ body{
   margin-bottom: 0;
   margin-left: 20px;
   margin-right: 20px;
-  font-size: 15px;
+  font-size: 16px;
   
   padding-left: 5px;
   padding-right: 5px;
 }
 
 
+.indicacion{
+  width: 100%;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 4px;
+ 
+  position: relative;
+}
 
+.indicacion p{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 16px;
+ text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
 
 .galeria{
   position: relative;
