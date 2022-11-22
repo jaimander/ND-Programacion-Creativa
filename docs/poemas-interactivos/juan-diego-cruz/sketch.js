@@ -38,8 +38,8 @@ function preload() {
   maluma = loadImage("images/CaraMaluma.png");
 }
 
-// mi principal sugerencia es una cuestión de orden del código. Identa (alinea) el código para mantener la jerarquía visual de cada cosa. Un atajo en windows es Shift +Alt + F
-// en el html, yo agregaría en la instrucción la palabra "teclas" antes de "1-Q-A" para mejor comprensión del jugador
+
+
 //setup
 
 function setup() {

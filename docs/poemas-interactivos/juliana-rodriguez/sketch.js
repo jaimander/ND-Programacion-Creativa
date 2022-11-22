@@ -143,7 +143,7 @@ function draw() {
     pop();
 
     //Obstáculo linea
-    //col= (150); // para guardar un valor de color hace falta agregar la palabra 'color': color(150)
+
     col = color(150);
     push();
     noStroke();
@@ -279,7 +279,6 @@ function draw() {
       toco = true;
       mouseX = 0;
       mouseY = 0;
-      //nuevaFuncion();
       reorganizarTodo();
       col = color(199, 0, 57);
       pop();
@@ -300,13 +299,11 @@ function draw() {
     }
     //Condicional no es la persona correcta
     if (mouseX > width / 1.2 - 50 && mouseX < width / 1.2 + 60 && mouseY > 0 && mouseY < l1 + 50) {
-      //nuevaFuncion();
       reorganizarTodo();
       col = color(199, 0, 57);
     }
 
     if (mouseX > width / 1.2 - 50 && mouseX < width / 1.2 + 60 && mouseY > l2 - 50 && mouseY < height) {
-      //nuevaFuncion();
       reorganizarTodo();
       col = color(199, 0, 57);
     }
@@ -448,7 +445,6 @@ function draw() {
       dist(mouseX, mouseY, (width / 2) - 100, (height / 2) + 100) < 100 ||
       dist(mouseX, mouseY, (width / 2) + 100, (height / 2) + 100) < 100 && toco == false) {
       push();
-      //nuevaFuncion();
       reorganizarTodo();
       col = color(199, 0, 57);
       pop();
@@ -462,12 +458,10 @@ function draw() {
     }
     //Condicional no es la persona correcta
     if (mouseY > height / 1.2 - 50 && mouseY < height / 1.2 + 60 && mouseX > 0 && mouseX < l3 + 50) {
-      //nuevaFuncion(); // puedes cambiarle el nombre a esta función (ej. reorganizarTodo()), al igual que pasa con las variables, para que tenga más sentido para ti como programadora
       reorganizarTodo();
       col = color(199, 0, 57);
     }
     if (mouseY > height / 1.2 - 50 && mouseY < height / 1.2 + 60 && mouseX > l4 - 50 && mouseX < width) {
-      //nuevaFuncion();
       reorganizarTodo();
       col = color(199, 0, 57);
     }
@@ -476,7 +470,7 @@ function draw() {
 
 }
 
-//function nuevaFuncion(){
+
 function reorganizarTodo() {
   //Colores
   col = color(0);
