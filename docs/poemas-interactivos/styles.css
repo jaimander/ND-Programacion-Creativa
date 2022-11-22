@@ -1,8 +1,9 @@
   @import url(//fonts.googleapis.com/css?family=Manrope);
+  @import url(//fonts.googleapis.com/css?family=Rajdhani);
 
 body{
-  font-family: 'Manrope', sans-serif;
-  background-color: #d6d6d6;
+  font-family: 'Rajdhani', sans-serif;
+  background-color: #D6D58E;
   color: rgb(0, 0, 0);
   margin: 0;
   padding: 0;
@@ -12,10 +13,11 @@ body{
   width: 100%;
   margin: 0;
   background-color: rgb(195, 253, 36);
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
   position: relative;
   padding-top: 5px;
   padding-bottom: 5px;
+  font-weight: bold;
 
 }
 
@@ -54,21 +56,38 @@ body{
   padding-right: 5px;
 }
 
+
+
+
 .galeria{
+  position: relative;
   display:flex; /*Enables flexbox code */
   flex-direction:row; /* Axis or cross axis and defines the direction of the flex items*/
   flex-wrap:wrap; /* determine how the flex items behave when the flex container is too small*/
-  justify-content:center; /* Aligns the content in the display*/
-  align-items:center; /*Align items in the cross axis*/
-  padding:40px 25px; /* Make space (cushion)  around your elements */
+  justify-content: center; /* Aligns the content in the display*/
   gap:15px; /* Creates space between content/objects */
+  margin-top: 20px;
 }
+
+
+.galeria{
+  position: relative;
+  display:grid; 
+  grid-template-columns: repeat(auto-fit, minmax(250px, max-content));
+  grid-gap: 16px;
+  justify-content: center;
+  padding: initial;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
 
 .caja-poema{
   position: relative;
   /*outline-style: solid;*/
-  max-width:350px;
-  height:350px;
+  max-width:250px;
+  height: 250px;
   width:100%;
   object-fit:cover;
   outline-style: solid;
@@ -90,10 +109,11 @@ body{
   height: auto;
   top: 0px;
   left: 0px;
-  background-color: rgb(255, 255, 255);
+  background-color: #042940;
   outline-style: solid;
   outline-width: 2px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  outline-color: rgb(0, 0, 0);
   font-size: 20px;
   overflow: hidden;
  }
